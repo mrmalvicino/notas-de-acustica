@@ -55,8 +55,8 @@
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{imped.pdf}}%
     \put(0.04909945,0.56101712){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\rho_0 \, c$\end{tabular}}}}%
-    \put(0.7220253,0.47600359){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\re (Z)$\end{tabular}}}}%
-    \put(0.46385796,0.22560827){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\im (Z)$\end{tabular}}}}%
+    \put(0.7220253,0.47600359){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Re (Z)$\end{tabular}}}}%
+    \put(0.46385796,0.22560827){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Im (Z)$\end{tabular}}}}%
     \put(0.84176116,0.0726172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k \, r$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

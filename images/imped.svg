@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:zoom="1.3416246"
      inkscape:cx="147.58227"
-     inkscape:cy="194.91295"
+     inkscape:cy="135.28374"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -116,7 +116,7 @@
          style="stroke-width:0.264583"
          x="79.422783"
          y="27.639605"
-         dy="0 0 0 0 0 0 0 0 0.16265644">$\re (Z)$</tspan></text>
+         dy="0 0 0 0 0 0 0 0 0.16265644">$\Re (Z)$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.36446px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -128,7 +128,7 @@
          style="stroke-width:0.264583"
          x="51.024376"
          y="55.18309"
-         dy="0 0 0 0 0 0 0 0 0.16265644">$\im (Z)$</tspan></text>
+         dy="0 0 0 0 0 0 0 0 0.16265644">$\Im (Z)$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.36446px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"

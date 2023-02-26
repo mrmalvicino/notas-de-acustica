@@ -1,87 +1,36 @@
 \documentclass[a5paper,12pt,twoside]{book}
-%\setlength{\headheight}{15pt}
 
-\usepackage[tmargin=25mm,bmargin=30mm,lmargin=25mm,rmargin=25mm]{geometry}
+\input{my-book-packages}
+\input{my-book-commands}
 
-\usepackage[output-decimal-marker={,},quotient-mode=fraction]{siunitx}
-\DeclareSIUnit{\rpm}{rpm}
-\DeclareSIUnit{\atmosphere}{atm}
-
-\usepackage[framemethod=TikZ]{mdframed} % Define \begin{mdframed}[style=MyFrame1]
-\mdfdefinestyle{MyFrame1}
-    {linecolor=black!80!gray,
-    outerlinewidth=0.5pt,
-    roundcorner=0pt,
-    innertopmargin=15pt,
-    innerbottommargin=20pt,
-    innerrightmargin=15pt,
-    innerleftmargin=15pt,
-    backgroundcolor=gray!30!white}
-
-\usepackage[spanish]{babel}  % Traducciones y abreviaturas
-\usepackage{amssymb}  % Símbolos y tipografía matemáticos
-\usepackage{amsmath}  % Formato y estructura matemáticos
-\usepackage{esint} % Define \oiint para integrales cerradas y acomoda \iiint
-\usepackage{hyperref}  % Referencias cruzadas
-\usepackage{fancyhdr}  % Encabezado y pie
-\usepackage{graphicx}  % Define \includegraphics
-\usepackage{pdfpages} % Define \includepdf
-
-% Entornos numerados
+% ENTORNOS DE NUMERACIÓN
 \newtheorem{defn}{{Definición}}[chapter]
 \newtheorem{prop}{{Propiedad}}[chapter]
 \newtheorem{example}{{Ejemplo}}[chapter]
 
-
-% Comandos
-\newcommand{\sub}[2]{{{#1}_\textsl{{#2}}}} % ... subíndice ...
-\newcommand{\scale}[2]{\text{\scalebox{#1}{$#2$}}} % Aplicar factor de escala #1 a la ecuación #2
-\newcommand{\cusTitle}[1]{\noindent\textbf{#1}} % Título de definiciones y propiedades
-\newcommand{\cusText}[1]{\vspace{2mm}\\\text{\hspace{\the\parindent}}#1} % Descripción de definiciones y propiedades
-\newcommand{\bis}[1]{{\tilde{{#1}}}} % Gorro sobre ...
-\newcommand{\norm}[1]{{\left| {#1} \right|}} % Norma de ...
-\newcommand{\unitVec}[1]{\hat{#1}} % Versor unitario ...
-\newcommand{\ave}[1]{{{#1}_\textsl{med}}} % Valor promedio de ...
-\newcommand{\rms}[1]{{{#1}_\textsl{ef}}} % Valor eficaz de ...
-\newcommand{\peak}[1]{{{#1}_\textsl{pk}}} % Valor pico de ...
-\newcommand{\setO}{\varnothing} % Conjunto vacío
-\newcommand{\setN}{\mathbb{N}} % Conjunto de los números naturales
-\newcommand{\setZ}{\mathbb{Z}} % Conjunto de los números enteros
-\newcommand{\setR}{\mathbb{R}} % Conjunto de los números reales
-\newcommand{\setI}{\mathbb{I}} % Conjunto de los números imaginarios
-\newcommand{\setC}{\mathbb{C}} % Conjunto de los números complejos
-\newcommand{\iu}{\mathrm{i}\mkern1mu} % Unidad imaginaria o número i
-\newcommand{\ith}{n} % Valor i-ésimo para sumatorias y permutadores
-\newcommand{\jth}{j} % Valor j-ésimo para sumatorias y permutadores
-\newcommand{\kth}{k} % Valor k-ésimo para sumatorias y permutadores
-\newcommand{\nth}{N} % Valor n-ésimo para sumatorias y permutadores
-\newcommand{\iVec}{\unitVec{\imath}} % i versor
-\newcommand{\jVec}{\unitVec{\jmath}} % j versor
-\newcommand{\kVec}{\unitVec{k}} % k versor
-\newcommand{\dif}{\textsl{d}} % Diferencial
-\newcommand{\grad}{\Vec{\nabla}} % Gradiente a fin
-\newcommand{\weight}{\textsl{p}} % Peso
-
+% ENTORNOS DE FORMATO
+\newenvironment{formatI}{\vspace{1ex}\par\small\sffamily}
 
 \begin{document}
 
 \pagestyle{fancy}
 \fancyhf{}
-\cfoot{\thepage}
+\chead{\scriptsize \nouppercase\rightmark}
+\cfoot{\scriptsize \thepage}
 \pagenumbering{gobble}
 \renewcommand{\headrulewidth}{0pt}
 
 \frontmatter
-% \includepdf{archivo}
+% \includepdf{cover}
 
 \begin{center}
 
     \begin{Huge}
-    \textbf{Notas de Acústica}
+    \textbf{Notas de acústica}
     \end{Huge}
 
     \vspace{1cm}
-    \textbf{Edición beta}
+    \textbf{Primera edición (v20230226)}
     \vspace{2cm}
 
     \begin{Large}
@@ -94,11 +43,11 @@
 \noindent
 \textbf{Prefacio}
 
-Resumen de contenidos de la materia Acústica y Psicoacústica 1 de Ingeniería de Sonido de la Universidad Nacional de Tres de Febrero. Curso 2021 1C. Profesores Mariano Arouxet y Joaquín García. Docentes adscriptos Maite Atín y Gaspar Bevilacqua. Mis agradecimientos a ellos cuatro, que brindaron una excelente cursada virtual a pesar de las circunstancias pandémicas.
+Resumen de contenidos de la materia electricidad y magnetismo para ingeniería de sonido de la Universidad Nacional de Tres de Febrero.
 
-Este texto está siendo editado permanentemente. La versión beta más reciente puede ser descargada gratuitamente de \url{https://bit.ly/malvicinoacustica}.
+La versión digital más reciente de este texto puede ser descargada gratuitamente de \url{https://github.com/mrmalvicino/notas-de-acustica}
 
-% \renewcommand{\spanishappendixname}{Anexo}
+\renewcommand{\spanishappendixname}{Anexo}
 \tableofcontents
 
 \mainmatter
@@ -110,8 +59,8 @@ Este texto está siendo editado permanentemente. La versión beta más reciente 
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Vibración}
-    \cusText{Una vibración es el movimiento de una partícula al rededor de un punto de equilibrio.}
+    \cusTi{Vibración}
+    \cusTe{Una vibración es el movimiento de una partícula al rededor de un punto de equilibrio.}
 \end{mdframed}
 
 En varias ocasiones, el comportamiento de las vibraciones se estudia a partir de oscilaciones en función del tiempo, independientemente de la propagación del disturbio en el espacio que se pueda llegar a generar. Ahora bien, a menos que se estudie el movimiento armónico de una partícula aislada en el vacío, toda vibración se da en un medio continuo y por tanto va a devenir en sonido, ya que se va a propagar en el espacio por estar en interacción con su entorno.
@@ -129,7 +78,8 @@ Los resortes en un sistema mecánico se comportan de manera similar a como se co
 En el esquema siguiente se muestran dos sistemas compuestos por una masa colgando de dos resortes con un extremo fijo en el techo. Los resortes en el sistema de la izquierda están dispuestos en paralelo y los del sistema de la derecha en serie.
 
 \begin{center}
-    \includegraphics[width=8cm]{k.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/k-serie-paralelo.pdf_tex}
 \end{center}
 
 Se supone como hipótesis que el peso de la masa está perfectamente equilibrado y que esta solo tiene un grado de libertad para desplazarse.
@@ -137,8 +87,8 @@ Se supone como hipótesis que el peso de la masa está perfectamente equilibrado
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Constante de rigidez equivalente}
-    \cusText{Resortes en paralelo:}
+    \cusTi{Constante de rigidez equivalente}
+    \cusTe{Resortes en paralelo:}
     \begin{equation*}
         k = \sum_{\ith=1}^\nth k_\ith
     \end{equation*}
@@ -157,8 +107,10 @@ La deflexión estática es el estiramiento de un resorte que tiene en un extremo
 \subsection*{Deflexión estática en resortes de expansión}
 
 En el esquema a continuación se muestran tres instancias en las que se tiene un resorte de expansión de longitud natural $l_0$ con un extremo fijo. El otro extremo está libre y eventualmente puede moverse.
+
 \begin{center}
-    \includegraphics[width=7.5cm]{deflection1.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/deflec-estat-techo.pdf_tex}
 \end{center}
 
 En principio, el resorte está descargado. Está en reposo, y la posición del extremo libre coincide con la longitud natural. Al no tener peso, la deflexión estática es nula. Luego se lo carga con una masa $m_0$, estirándose hasta que se detiene y permanece en equilibrio. Debido al peso de esta masa, se produce una deflexión estática $\Delta x_0=x_0-l_0$. Finalmente, se agrega una masa $\delta m_1$ y el resorte queda cargado con una masa $m_1=m_0+\delta m_1$ que hace que se estire aún más y genere una deflexión estática $\Delta x_1=x_1-l_0$ mayor a la anterior.
@@ -210,8 +162,10 @@ Y restando $\Delta x_0$ de ambos miembros se llega a la conclusión de que la de
 \subsection*{Deflexión estática en resortes de compresión}
 
 Una situación análoga puede analizarse para un resorte de compresión, obteniendo el mismo resultado con signo contrario por no definir la fuerza elástica por convención.
+
 \begin{center}
-    \includegraphics[width=7.5cm]{deflection2.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/deflec-estat-piso.pdf_tex}
 \end{center}
 
 Una masa $m_\ith = m_0+\delta m_\ith$ se corresponde con una deflexión estática $\Delta x_\ith = l_0 - x_\ith$ según:
@@ -340,8 +294,10 @@ Y luego despejando:
 \label{sec:oscilacionForzada}
 
 El movimiento de un sistema masa-resorte al que se le aplica una fuerza periódica se modela como un movimiento armónico amortiguado forzado. En la figura a continuación se puede ver un esquema del sistema, en el que se tiene una masa unida al extremo de un resorte ideal con el otro extremo fijo.
+
 \begin{center}
-    \includegraphics[width=4.2cm]{MAAF.png}
+    \def\svgwidth{0.5\linewidth}
+    \input{./images/osc-maaf-diag.pdf_tex}
 \end{center}
 
 Haciendo la sumatoria de fuerzas sobre la masa según las leyes de Newton, se obtiene la ecuación diferencial que rige el movimiento de la misma.
@@ -379,7 +335,8 @@ Pudiendo definir $D=\frac{1}{\sqrt{(1-r^2)^2+(2 \xi r)^2}}$ como la amplitud din
 Nótese que $\theta$ es el defasaje entre la posición de la masa y la fuerza externa. No debe ser confundida con $\varphi$ que es la fase de la oscilación amortiguada que depende de las condiciones iniciales del sistema. En la siguiente figura se dan, para distintos valores de $\xi$, gráficos del defasaje $\theta(r)$ que depende de la frecuencia de la fuerza externa.
 
 \begin{center}
-    \includegraphics[width=9cm]{theta.png}
+    \def\svgwidth{\linewidth}
+    \input{./images/osc-maaf-fase.pdf_tex}
 \end{center}
 
 La frecuencia de la fuerza externa es positiva lo cual implica que $r>0$. Por lo tanto, para interpretar el gráfico de fase, solo se debe considerar la mitad derecha del mismo.
@@ -390,8 +347,10 @@ La frecuencia de la fuerza externa es positiva lo cual implica que $r>0$. Por lo
 A partir del modelo de oscilación forzada (Sec. \ref{sec:oscilacionForzada}) resulta de interés estudiar cómo se transmite la fuerza externa en el otro extremo del resorte considerando que ninguno de los extremos están fijos.
 
 Se tiene un sistema masa-resorte en un medio viscoso al que se le impone una fuerza externa de magnitud periódica en cualquiera de los extremos.
+
 \begin{center}
-    \includegraphics[width=6.7cm]{XY.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/vib-transmisibilidad-diag.pdf_tex}
 \end{center}
 
 Como hipótesis se supone que todos los puntos que componen la masa $m$ se mueven con un solo grado de libertad y con la misma aceleración. Estas condiciones se dan análogamente para los puntos de la base donde está el sistema apoyado, o el techo en caso que esté colgado. Ergo, todos los puntos del bloque $A1$ se modelan mediante $x(t)$ y todos los puntos del bloque $A2$ mediante $y(t)$.
@@ -403,8 +362,8 @@ Para estudiar el efecto de amortiguación que tenga el sistema se pretende anali
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Transmisibilidad}
-    \cusText{Relación entre amplitud de la vibración y amplitud transmitida.}
+    \cusTi{Transmisibilidad}
+    \cusTe{Relación entre amplitud de la vibración y amplitud transmitida.}
     \begin{equation*}
         T_F = \frac{\norm{X}}{\norm{Y}}
     \end{equation*}
@@ -415,8 +374,8 @@ Se define, además, el nivel de transmisibilidad en escala logarítmica como sig
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Nivel de transmisibilidad}
-    \cusText{Valor de transmisibilidad en decibeles.}
+    \cusTi{Nivel de transmisibilidad}
+    \cusTe{Valor de transmisibilidad en decibeles.}
     \begin{equation*}
         L_T=10 \log \left( T_F \right)
     \end{equation*}
@@ -497,8 +456,8 @@ Reemplazando las soluciones y sus derivadas en la ecuación \ref{eqn:MAAF} se ti
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Relación de frecuencias}
-    \cusText{Relación entre la frecuencia de excitación y la frecuencia de resonancia.}
+    \cusTi{Relación de frecuencias}
+    \cusTe{Relación entre la frecuencia de excitación y la frecuencia de resonancia.}
     \begin{equation*}
         r=\frac{\omega}{\omega_0}
     \end{equation*}
@@ -530,7 +489,8 @@ Observar que $\norm{X}$ e $\norm{Y}$ son los módulos de las funciones de posici
 Al graficar el nivel de transmisibilidad, se obtiene la siguiente familia de curvas que dependen del parámetro $0<\xi<1$ que caracteriza cada sistema.
 
 \begin{center}
-    \includegraphics[width=8cm]{LT.png}
+    \def\svgwidth{\linewidth}
+    \input{./images/vib-transmisibilidad-nivel.pdf_tex}
 \end{center}
 
 Se puede observar en la figura anterior que para valores de $r>\sqrt{2}$ el sistema va a estar amortiguando la fuerza externa, ya que $\norm{Y}>\norm{X}$, lo cual implica que el desplazamiento en el extremo donde se aplica la fuerza es mayor al extremo sobre el otro.
@@ -573,8 +533,8 @@ Analizando la fuerza transmitida $\sub{F}{tra}=F_1 \cos(\omega t)$ y el desplaza
     \begin{defn}
         \label{defn:sound}
     \end{defn}
-    \cusTitle{Sonido}
-    \cusText{El sonido es una variación de presión o desplazamiento de partículas que se propaga en un medio elástico a causa de una perturbación que sea detectable por un instrumento tecnológico o mediante el órgano receptor en un ser vivo.}
+    \cusTi{Sonido}
+    \cusTe{El sonido es una variación de presión o desplazamiento de partículas que se propaga en un medio elástico a causa de una perturbación que sea detectable por un instrumento tecnológico o mediante el órgano receptor en un ser vivo.}
 \end{mdframed}
 
 \section{Forma de onda}
@@ -584,7 +544,8 @@ Una onda es la caracterización de la propagación del sonido en espacio y tiemp
 En el siguiente gráfico se tiene un ejemplo para la forma de onda de la presión acústica. Se observa que esta toma distintos valores en función del tiempo en torno a $p_0$, que es el promedio.
 
 \begin{center}
-    \includegraphics[width=7.5cm]{waveform.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/pressure-waveform.pdf_tex}
 \end{center}
 
 Siendo $p_0$ la presión atmosférica estándar:
@@ -633,7 +594,8 @@ Pudiendo desarrollar:
 A continuación se grafica la relación obtenida para $p_1$ en función de $\rho_1$ con $\gamma=1.4$ y se muestra la recta tangente a fin que pasa por $[\rho_0;p_0]$.
 
 \begin{center}
-    \includegraphics[width=5.5cm]{pRho.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/pressure-density.pdf_tex}
 \end{center}
 
 Dado que existe la derivada de la función $p_1(\rho_1)$, vemos que la recta tangente que pasa por $p_1(\rho_0)$ es una buena aproximación lineal.
@@ -659,7 +621,7 @@ Se define la presión acústica $p=p_1-p_0$ como la diferencia entre la presión
     \begin{prop}
         \label{prop:linearAcoustics}
     \end{prop}
-    \cusTitle{Hipótesis de la acústica lineal}
+    \cusTi{Hipótesis de la acústica lineal}
     \begin{equation*}
         p \approx c^2\,\rho
     \end{equation*}
@@ -687,7 +649,8 @@ Donde $c^2=\tfrac{p_0 \, \gamma}{\rho_0}$ es la velocidad de propagación del so
 Consideremos una porción de cierto fluido dentro de un conducto de área transversal $\Delta y \, \Delta z$ con un pistón en un extremo. 
 
 \begin{center}
-    \includegraphics[width=6cm]{PwaveEqn.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/pressure-wave-eqn.pdf_tex}
 \end{center}
 
 Eventualmente el fluido podría estar en movimiento pero se supone que está en reposo, de modo que $v_0=0\,\si{\metre\per\second}$ es nula si no hay perturbaciones.
@@ -863,7 +826,7 @@ Y reemplazando la tercer ecuación en la segunda se infiere la ecuación de onda
     \begin{defn}
         \label{defn:soundWave1D}
     \end{defn}
-    \cusTitle{Ecuación de onda en 1D}
+    \cusTi{Ecuación de onda en 1D}
     \begin{equation*}
         \frac{\dif^2 p}{\dif t^2} - c^2 \, \frac{\dif^2 p}{\dif x^2} = 0
     \end{equation*}
@@ -880,15 +843,15 @@ A partir de la ecuación \ref{eqn:momentumDelta} se plantea la conservación del
     &=
     \Delta V \, \frac{\dif \left( \rho_1 \, \Vec{v}_1 \right)}{\dif t}
     \\
-    - \oiint \limits_S p_1 \cdot \unitVec{n} \, \dif S
-    &= \iiint \limits_V \frac{\dif \left( \rho_1 \, \Vec{v}_1 \right)}{\dif t} \dif V
+    - \iint_S p_1 \cdot \versor{n} \, \dif S
+    &= \iiint_V \frac{\dif \left( \rho_1 \, \Vec{v}_1 \right)}{\dif t} \dif V
 \end{align*}
 
 Aplicando el teorema de Gauss a la integral de superficie del miembro izquierdo de la ecuación:
 \begin{gather}
-    - \iiint \limits_V \grad \cdot p_1 \, \dif V
+    - \iiint_V \grad \cdot p_1 \, \dif V
     =
-    \iiint \limits_V \frac{\dif \left( \rho_1 \, \Vec{v}_1 \right)}{\dif t} \dif V
+    \iiint_V \frac{\dif \left( \rho_1 \, \Vec{v}_1 \right)}{\dif t} \dif V
     \notag\\
     \frac{\dif \left( \rho_1 \, \Vec{v}_1 \right)}{\dif t} + \grad \cdot p_1 = 0
     \label{eqn:momentum3D}
@@ -902,16 +865,16 @@ Multiplicando por $\Delta x$ en ambos miembros de la ecuación \ref{eqn:massDelt
     &=
     -\Delta \left( \rho_1 \, \Vec{v_1} \, \Delta y \, \Delta z \right)
     \\
-    \iiint \limits_V \frac{\dif \rho_1}{\dif t} \, \dif V
+    \iiint_V \frac{\dif \rho_1}{\dif t} \, \dif V
     &=
-    - \oiint \limits_S \rho_1 \, \Vec{v}_1 \cdot \unitVec{n} \, \dif S
+    - \iint_S \rho_1 \, \Vec{v}_1 \cdot \versor{n} \, \dif S
 \end{align*}
 
 Aplicando el teorema de Gauss a la integral de superficie del miembro derecho de la ecuación:
 \begin{gather}
-    \iiint \limits_V \frac{\dif \rho_1}{\dif t} \, \dif V
+    \iiint_V \frac{\dif \rho_1}{\dif t} \, \dif V
     =
-    - \iiint \limits_V \grad \cdot \left( \rho_1 \, \Vec{v_1} \right) \dif V
+    - \iiint_V \grad \cdot \left( \rho_1 \, \Vec{v_1} \right) \dif V
     \notag\\
     \frac{\dif \rho_1}{\dif t} + \grad \cdot \left( \rho_1 \, \Vec{v_1} \right) = 0
     \label{eqn:mass3D}
@@ -936,7 +899,7 @@ Siguiendo un procedimiento similar al caso unidimensional, se obtiene la ecuaci�
     \begin{defn}
         \label{defn:soundWave3D}
     \end{defn}
-    \cusTitle{Ecuación de onda en 3D}
+    \cusTi{Ecuación de onda en 3D}
     \begin{equation*}
         \ddot{p} - c^2 \, \grad^2 p = 0
     \end{equation*}
@@ -948,7 +911,7 @@ A partir del laplaciano de presión para coordenadas esféricas surge la ecuaci�
     \begin{defn}
         \label{defn:soundWaveSpherical}
     \end{defn}
-    \cusTitle{Ecuación de onda esférica}
+    \cusTi{Ecuación de onda esférica}
     \begin{equation*}
         \frac{\partial^2 (rp)}{\partial t^2} - c^2 \frac{\partial^2 (rp)}{\partial r^2} = 0
     \end{equation*}
@@ -963,7 +926,7 @@ La solución general a la ecuación de onda en una dimensión está dada por la 
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Solución general en 1D}
+    \cusTi{Solución general en 1D}
     \begin{equation*}
         p(x,t) = f_1 \left( t - \frac{x}{c} \right) + f_2 \left( t + \frac{x}{c} \right)
     \end{equation*}
@@ -975,7 +938,7 @@ Particularmente podemos representar ondas periódicas restringiendo la solución
     \begin{defn}
         \label{defn:waveFunction1D}
     \end{defn}
-    \cusTitle{Solución periódica en 1D}
+    \cusTi{Solución periódica en 1D}
     \begin{equation*}
         p(x,t) = A \, e^{\iu \omega \left( t - \frac{x}{c}\right)} + B \, e^{\iu \omega \left( t + \frac{x}{c}\right)}
     \end{equation*}
@@ -987,7 +950,7 @@ Una onda en tres dimensiones cuyo frente de onda se propague de forma esférica 
     \begin{defn}
         \label{defn:sphericalWaveFunction}
     \end{defn}
-    \cusTitle{Solución periódica para onda esférica}
+    \cusTi{Solución periódica para onda esférica}
     \begin{equation*}
         p(r,t) = \frac{A}{r} \, e^{\iu \omega \left( t - \frac{r}{c}\right)} + \frac{B}{r} \, e^{\iu \omega \left( t + \frac{r}{c}\right)}
     \end{equation*}
@@ -998,7 +961,7 @@ Una onda en tres dimensiones cuyo frente de onda se propague de forma esférica 
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Coeficiente de reflexión}
+    \cusTi{Coeficiente de reflexión}
     \begin{equation*}
         R=\frac{B}{A}
     \end{equation*}
@@ -1051,7 +1014,7 @@ Y al dividir $p(t)$ se infiere:
     \begin{defn}
         \label{defn:Helmholtz1D}
     \end{defn}
-    \cusTitle{Ecuación de Helmholtz en 1D}
+    \cusTi{Ecuación de Helmholtz en 1D}
     \begin{equation*}
         \frac{\dif^2 p(x)}{\dif x^2} + k^2 \, p(x) = 0
     \end{equation*}
@@ -1066,7 +1029,7 @@ Se puede demostrar que la equivalente a la ecuación de Helmholtz en una dimensi
     \begin{defn}
         \label{defn:Helmholtz3D}
     \end{defn}
-    \cusTitle{Ecuación de Helmholtz en 3D}
+    \cusTi{Ecuación de Helmholtz en 3D}
     \begin{equation*}
         \grad^2 p(\Vec{x}) + k^2 \, p(\Vec{x}) = 0
     \end{equation*}
@@ -1078,7 +1041,7 @@ Y a su vez en coordenadas esféricas a partir del laplaciano de presión.
     \begin{defn}
         \label{defn:HelmholtzSpheric}
     \end{defn}
-    \cusTitle{Ecuación de Helmholtz en esféricas}
+    \cusTi{Ecuación de Helmholtz en esféricas}
     \begin{equation*}
         \frac{\partial^2 (rp)}{\partial r^2} + k^2(rp) = 0
     \end{equation*}
@@ -1121,7 +1084,7 @@ Obteniendo para $\omega=c\,k$ la siguiente expresión para la velocidad de las p
     \begin{defn}
         \label{defn:particlesVelocity}
     \end{defn}
-    \cusTitle{Velocidad particular}
+    \cusTi{Velocidad particular}
     \begin{equation*}
         v(x) = \frac{\iu}{\rho_0 \, c \, k} \, \frac{\partial p(x)}{\partial x}
     \end{equation*}
@@ -1177,8 +1140,8 @@ La relación entre la presión $p(t)$ y la velocidad particular $v(t)$ es conoci
     \begin{defn}
         \label{defn:impedance}
     \end{defn}
-    \cusTitle{Impedancia acústica}
-    \cusText{La impedancia acústica es la oposición a la propagación de una onda sonora en un medio.}
+    \cusTi{Impedancia acústica}
+    \cusTe{La impedancia acústica es la oposición a la propagación de una onda sonora en un medio.}
     \begin{equation*}
         Z \left(\Vec{x},t\right) = \frac{p \left(\Vec{x},t\right)}{v \left(\Vec{x},t\right)}
     \end{equation*}
@@ -1211,16 +1174,16 @@ Obteniendo:
 \begin{mdframed}[style=MyFrame1]
     \begin{prop}
     \end{prop}
-    \cusTitle{Impedancia acústica en 1D}
-    \cusText{Si $0 \leq R \leq 1$ entonces:}
+    \cusTi{Impedancia acústica en 1D}
+    \cusTe{Si $0 \leq R \leq 1$ entonces:}
     \begin{equation*}
         Z(x) = \rho_0 \, c \, \frac{e^{-\iu k x} + R \, e^{\iu k x}}{e^{-\iu k x} - R \, e^{\iu k x}}
     \end{equation*}
-    \cusText{Si $R=1$ entonces:}
+    \cusTe{Si $R=1$ entonces:}
     \begin{equation*}
         Z(x) = \rho_0 \, c \, \frac{2 \cos(kx)}{-2 \iu \sin (kx)} = \iu \, \rho_0 \, c \, \tan^{-1}(kx)
     \end{equation*}
-    \cusText{Si $R=0$ entonces:}
+    \cusTe{Si $R=0$ entonces:}
     \begin{equation*}
         Z(x) = \rho_0 \, c
     \end{equation*}
@@ -1275,7 +1238,7 @@ O bien, multiplicando y dividiendo por $(k\,r)^2$ queda:
 \begin{mdframed}[style=MyFrame1]
     \begin{prop}
     \end{prop}
-    \cusTitle{Impedancia acústica en 3D}
+    \cusTi{Impedancia acústica en 3D}
     \begin{align*}
         Z(r) &= \Re(Z) + \iu \, \Im(Z)
         \\
@@ -1284,8 +1247,10 @@ O bien, multiplicando y dividiendo por $(k\,r)^2$ queda:
 \end{mdframed}
 
 El término $k \, r$ determina si un punto a cierta distancia $r$ está en campo cercano o campo lejano, dependiendo de la frecuencia de la onda. Al graficar $\Re(Z)$ y $\Im(Z)$ se puede observar que el número complejo $Z$ tiene mayor preponderancia en su componente real para valores de $k \, r$ altos, mientras que la componente imaginaria influye en mayor medida para valores de $k \, r$ bajos. 
+
 \begin{center}
-    \includegraphics[width=5cm]{impedance.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/imped.pdf_tex}
 \end{center}
 
 A partir de la ecuación \ref{eqn:impedance3D} podemos hacer un análisis similar para el módulo de la impedancia. Observar que $|Z|$ tiende a ser $\rho_0 \, c$ para valores de $k \, r$ altos.
@@ -1296,14 +1261,15 @@ A partir de la ecuación \ref{eqn:impedance3D} podemos hacer un análisis simila
 \begin{mdframed}[style=MyFrame1]
     \begin{prop}
     \end{prop}
-    \cusTitle{Módulo de la impedancia en 3D}
+    \cusTi{Módulo de la impedancia en 3D}
     \begin{equation*}
         \norm{Z(r)} = \frac{\rho_0 \, c}{\sqrt{1+\dfrac{1}{(k \, r)^2}}}
     \end{equation*}
 \end{mdframed}
 
 \begin{center}
-    \includegraphics[width=5cm]{impedanceAbs.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/imped-abs.pdf_tex}
 \end{center}
 
 
@@ -1335,10 +1301,10 @@ La potencia es la cantidad de energía por unidad de tiempo. En el caso de una f
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Potencia acústica}
-    \cusText{Flujo del campo vectorial de intensidad sobre una superficie Gaussiana que encierra la fuente sonora.}
+    \cusTi{Potencia acústica}
+    \cusTe{Flujo del campo vectorial de intensidad sobre una superficie Gaussiana que encierra la fuente sonora.}
     \begin{equation*}
-        W = \oiint_S \Vec{I} \cdot \dif\Vec{S}
+        W = \iint_S \Vec{I} \cdot \dif\Vec{S}
     \end{equation*}
 \end{mdframed}
 
@@ -1350,8 +1316,8 @@ En tal caso, la intensidad acústica se puede definir en función de la potencia
     \begin{defn}
         \label{defn:I}
     \end{defn}
-    \cusTitle{Intensidad acústica}
-    \cusText{Potencia por unidad de superficie.}
+    \cusTi{Intensidad acústica}
+    \cusTe{Potencia por unidad de superficie.}
     \begin{equation*}
         I = \frac{W}{S}
     \end{equation*}
@@ -1427,7 +1393,7 @@ Reemplazando la ecuación \ref{eqn:energyDensityPv} en la ecuación \ref{eqn:ene
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Vector intensidad}
+    \cusTi{Vector intensidad}
     \begin{equation*}
         \Vec{i}(x,t) = p(x,t) \, \Vec{v}(x,t)
     \end{equation*}
@@ -1480,7 +1446,7 @@ Obteniendo así la siguiente definición para la intensidad que puede ser extrap
     \begin{prop}
         \label{prop:aveI}
     \end{prop}
-    \cusTitle{Intensidad media}
+    \cusTi{Intensidad media}
     \begin{equation*}
         \ave{I} = \frac{\Re \left[ p(x)\,\overline{v}(x) \right]}{2}
     \end{equation*}
@@ -1491,13 +1457,14 @@ Obteniendo así la siguiente definición para la intensidad que puede ser extrap
 La restricción espacial que afecta la radiación esférica de la fuente se conoce como coeficiente de directividad $Q$. En la figura a continuación sea muestran los valores que tomaría $Q$ para una fuente esférica ubicada en una esquina, al pié de una pared o contra el piso.
 
 \begin{center}
-    \includegraphics[width=8cm]{Q.png}
+    \def\svgwidth{0.6\linewidth}
+    \input{./images/q.pdf_tex}
 \end{center}
 
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Índice de directividad}
+    \cusTi{Índice de directividad}
     \begin{equation*}
         D_I = 10 \log (Q)
     \end{equation*}
@@ -1512,7 +1479,7 @@ Una fuente pulsante monopolar impone una velocidad de partículas en dirección 
     \begin{defn}
         \label{defn:Q_v}
     \end{defn}
-    \cusTitle{Caudal de velocidad particular}
+    \cusTi{Caudal de velocidad particular}
     \begin{equation*}
         Q_v = S\,v(r)
     \end{equation*}
@@ -1589,7 +1556,7 @@ La intensidad fue definida como la potencia por unidad de superficie (Def. \ref{
 \begin{mdframed}[style=MyFrame1]
     \begin{prop}
     \end{prop}
-    \cusTitle{Potencia de fuente esférica puntual}
+    \cusTi{Potencia de fuente esférica puntual}
     \begin{equation*}
         W = \frac{Q_v^2 \, \rho_0 \, \omega^2}{8\pi \,c}
     \end{equation*}
@@ -1662,15 +1629,15 @@ Luego si la distancia $r_2$ es el doble de $r_1$ queda:
 \end{equation*}
 
 
-\section{Dipolo acústico} % Falta terminar (ver unidad 4)
+%\section{Dipolo acústico} % Falta terminar (ver unidad 4)
 
 
-\section{Bafle infinito} % Falta terminar (ver unidad 4)
+%\section{Bafle infinito} % Falta terminar (ver unidad 4)
 
 
-\section{Modelo de Line Array} % Falta terminar (ver unidad 4)
+%\section{Modelo de Line Array} % Falta terminar (ver unidad 4)
 
-\clearpage % Provisorio
+
 \section{Niveles de presión, intensidad y potencia}
 
 Para estudiar las variaciones de presión, intensidad y potencia, se definen niveles en escalas logarítmicas. Los respectivos niveles relacionan dichas magnitudes con un valor de referencia, indicando qué tan por encima están del umbral de audición.
@@ -1678,8 +1645,8 @@ Para estudiar las variaciones de presión, intensidad y potencia, se definen niv
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Presión de referencia}
-    \cusText{Mínima presión perceptible por el oído humano.}
+    \cusTi{Presión de referencia}
+    \cusTe{Mínima presión perceptible por el oído humano.}
     \begin{equation*}
         \sub{p}{ref} = 20\,\si{\micro\pascal}
     \end{equation*}
@@ -1699,7 +1666,7 @@ Reemplazando $\sub{I}{ref}$ en la definición \ref{defn:I} se tiene que la míni
     \begin{defn}
         \label{defn:SPL}
     \end{defn}
-    \cusTitle{Nivel de presión sonora}
+    \cusTi{Nivel de presión sonora}
     \begin{equation*}
         L_p = SPL = 20 \log \left( \frac{\rms{p}}{\sub{p}{ref}} \right) \si{\deci\bel}
     \end{equation*}
@@ -1709,7 +1676,7 @@ Reemplazando $\sub{I}{ref}$ en la definición \ref{defn:I} se tiene que la míni
     \begin{defn}
         \label{defn:SIL}
     \end{defn}
-    \cusTitle{Nivel de intensidad sonora}
+    \cusTi{Nivel de intensidad sonora}
     \begin{equation*}
         L_I = SIL = 10 \log \left( \frac{I}{\sub{I}{ref}} \right)\si{\deci\bel}
     \end{equation*}
@@ -1719,7 +1686,7 @@ Reemplazando $\sub{I}{ref}$ en la definición \ref{defn:I} se tiene que la míni
     \begin{defn}
         \label{defn:PWL}
     \end{defn}
-    \cusTitle{Nivel de potencia acústica}
+    \cusTi{Nivel de potencia acústica}
     \begin{equation*}
         L_W = PWL = 10 \log \left( \frac{W}{\sub{W}{ref}} \right)\si{\deci\bel}
     \end{equation*}
@@ -1821,7 +1788,8 @@ De todas las frecuencias que pueda generar el pistón, solo van a ser resonantes
 Consideremos el caso en que el otro extremo está cerrado por una tapa rígida, como se muestra en el esquema a continuación.
 
 \begin{center}
-    \includegraphics[width=5.7cm]{tubeCC.png}
+    \def\svgwidth{0.6\linewidth}
+    \input{./images/tubo-cerrado-cerrado.pdf_tex}
 \end{center}
 
 Dado que las partículas no van a poder moverse más allá de la tapa, la velocidad particular en ese punto será nula. Por lo tanto, podemos asumir como hipótesis que en $x=L$ la impedancia es infinita.
@@ -1917,7 +1885,8 @@ O bien escribiendo $k=2\pi/\lambda$ se tiene que las longitudes de onda que pong
 Consideremos el caso en que el otro extremo está abierto, como se muestra en el esquema a continuación
 
 \begin{center}
-    \includegraphics[width=5.7cm]{tubeCO.png}
+    \def\svgwidth{0.6\linewidth}
+    \input{./images/tubo-cerrado-abierto.pdf_tex}
 \end{center}
 
 En el extremo abierto las partículas pueden moverse libremente con velocidad particular máxima, dándose un punto de presión mínima. Por lo tanto, podemos asumir como hipótesis que en $x=L$ la impedancia va a ser nula.
@@ -1956,7 +1925,7 @@ Se define la frecuencia de Schroeder que determina empíricamente a partir de qu
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Frecuencia de Schroeder}
+    \cusTi{Frecuencia de Schroeder}
     \begin{equation*}
         f_S = 2000 \sqrt{\frac{\sub{TR}{mid}}{V}}
     \end{equation*}
@@ -2049,8 +2018,8 @@ Reemplazando $k_x$, y luego con el mismo razonamiento $k_y$ y $k_z$, en la ecuac
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Frecuencias modales}
-    \cusText{Frecuencias de resonancia que excitan los modos propios de un recinto rectangular.}
+    \cusTi{Frecuencias modales}
+    \cusTe{Frecuencias de resonancia que excitan los modos propios de un recinto rectangular.}
     \begin{equation*}
         f_0 = \frac{c}{2} \sqrt{\left(\frac{n_x}{L_x}\right)^2 + \left(\frac{n_y}{L_y}\right)^2 + \left(\frac{n_z}{L_z}\right)^2}
     \end{equation*}
@@ -2115,7 +2084,7 @@ Podría tratarse de señales desfasadas:
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Fase}
+    \cusTi{Fase}
     \begin{equation*}
         \Delta \varphi = \frac{2\pi}{\lambda} \Delta x = \frac{2\pi}{T} \Delta t
     \end{equation*}
@@ -2126,8 +2095,8 @@ Debido a este comportamiento periódico, pueden darse sumas de presiones que cul
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Señales correlacionadas}
-    \cusText{Son aquellas señales de igual frecuencia.}
+    \cusTi{Señales correlacionadas}
+    \cusTe{Son aquellas señales de igual frecuencia.}
     \begin{equation*}
         \omega_1=\omega_2
     \end{equation*}
@@ -2136,8 +2105,8 @@ Debido a este comportamiento periódico, pueden darse sumas de presiones que cul
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Señales coherentes}
-    \cusText{Son aquellas señales correlacionadas sin desfasaje.}
+    \cusTi{Señales coherentes}
+    \cusTe{Son aquellas señales correlacionadas sin desfasaje.}
     \begin{equation*}
         \omega_1=\omega_2 \quad \land \quad \varphi_1=\varphi_2
     \end{equation*}
@@ -2181,7 +2150,7 @@ Podemos suponer que las presiones que están siendo sumadas tienen la misma ampl
 De esta forma se analizaría la variación del nivel de presión sonora al duplicar la presión eficaz, en función de la diferencia de fase entre ambas presiones. Identificamos así tres situaciones destacables.
 
 \begin{itemize}
-    \item \cusTitle{Suma completa:}
+    \item \cusTi{Suma completa:}
     $\Delta \varphi = \ang{0} \implies \cos(\Delta \varphi)=1$
     \begin{align*}
         \norm{p_T}^2 &= \norm{p_1}^2 + \norm{p_2}^2 + 2\norm{p_1} \norm{p_2}
@@ -2197,7 +2166,7 @@ De esta forma se analizaría la variación del nivel de presión sonora al dupli
         &= 6\,\si{\deci\bel} + SPL
     \end{align*}
     
-    \item \cusTitle{Suma parcial:}
+    \item \cusTi{Suma parcial:}
     $\Delta \varphi = \ang{90} \implies \cos(\Delta \varphi)=0$
     \begin{align*}
         \norm{p_T}^2 &= \norm{p_1}^2 + \norm{p_2}^2 = 2\,\rms{p}^2
@@ -2209,7 +2178,7 @@ De esta forma se analizaría la variación del nivel de presión sonora al dupli
         &= 3\,\si{\deci\bel} + SPL
     \end{align*}
     
-    \item \cusTitle{Cancelación:}
+    \item \cusTi{Cancelación:}
     $\Delta \varphi = \ang{180} \implies \cos(\Delta \varphi)=-1$
     \begin{align*}
         \norm{p_T}^2 &= \norm{p_1}^2 + \norm{p_2}^2 - 2\norm{p_1} \norm{p_2}
@@ -2226,7 +2195,8 @@ A partir de estas situaciones particulares, se puede inferir el comportamiento g
 A continuación se muestra, para un desfasaje de $\ang{0}$ a $\ang{360}$, valores de grises que representan la cancelación (en negro) o amplificación (en blanco) que resulta de sumar dos presiones de igual magnitud.
 
 \begin{center}
-    \includegraphics[width=3.8cm]{phaseSum.png}
+    \def\svgwidth{0.5\linewidth}
+    \input{./images/suma-cancelacion.pdf_tex}
 \end{center}
 
 
@@ -2257,7 +2227,7 @@ El nivel de presión total en decibeles queda dado según la definición \ref{de
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Nivel de presión global}
+    \cusTi{Nivel de presión global}
     \begin{equation*}
         SPL_T = 10 \log \left( \sum_{\ith=1}^\nth \frac{\rms{p}_\ith^2}{\sub{p}{ref}^2} \right) \si{\deci\bel}
     \end{equation*}
@@ -2275,7 +2245,7 @@ Pudiendo reemplazar la sumatoria anterior, obteniendo la siguiente definición e
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Nivel de presión global}
+    \cusTi{Nivel de presión global}
     \begin{equation*}
         SPL_T = 10 \log \left( \sum_{\ith=1}^\nth 10^{\tfrac{SPL_\ith}{10}} \right) \si{\deci\bel}
     \end{equation*}
@@ -2286,7 +2256,7 @@ Por otro lado, el promedio energético se puede calcular a partir de niveles de 
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Nivel de presión promedio}
+    \cusTi{Nivel de presión promedio}
     \begin{equation*}
         \ave{SPL}=20\log\left(\frac{\sum_{\ith=1}^\nth 10^{\tfrac{L_\ith}{20}}}{N}\right) \si{\deci\bel}
     \end{equation*}
@@ -2300,7 +2270,8 @@ El efecto Doppler es la variación en la frecuencia relativa de una onda que se 
 En el siguiente esquema se tiene una fuente $F$ que emite un sonido de frecuencia $f$ y se mueve en línea recta a velocidad constante $v_F$ hacia un receptor $R$ que está en reposo.
 
 \begin{center}
-    \includegraphics[width=7.5cm]{Doppler.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/doppler-diag.pdf_tex}
 \end{center}
 
 Sean
@@ -2355,16 +2326,18 @@ Esto significa que si la velocidad de la fuente es muy baja comparado con la vel
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Número de Match}
-    \cusText{El número de Match es una medida de velocidad relativa que se define como el cociente entre la velocidad de un objeto y la velocidad del sonido en el medio en que se mueve dicho objeto.}
+    \cusTi{Número de Match}
+    \cusTe{El número de Match es una medida de velocidad relativa que se define como el cociente entre la velocidad de un objeto y la velocidad del sonido en el medio en que se mueve dicho objeto.}
     \begin{equation*}
         \mathcal{M} = \frac{v_F}{c}
     \end{equation*}
 \end{mdframed}
 
 El siguiente gráfico representa el frente de onda de ona fuente subsónica, de Match 1 y supersónica respectivamente.
+
 \begin{center}
-    \includegraphics[width=8cm]{Match.png}
+    \def\svgwidth{\linewidth}
+    \input{./images/doppler-match.pdf_tex}
 \end{center}
 
 \section{Energía reflejada, absorbida y transmitida}
@@ -2373,7 +2346,8 @@ El siguiente gráfico representa el frente de onda de ona fuente subsónica, de 
 Cuando un sonido propagándose se encuentra con un obstáculo, parte del mismo va a ser reflejado, parte absorbido y parte transmitido a través del obstáculo.
 
 \begin{center}
-    \includegraphics[width=5cm]{inRAT.png}
+    \def\svgwidth{0.6\linewidth}
+    \input{./images/energia-rat.pdf_tex}
 \end{center}
 
 Resulta útil estudiar la situación a partir de consideraciones energéticas. La energía incidente será igual a la reflejada, más la absorbida, más la transmitida:
@@ -2391,8 +2365,8 @@ De esta forma, podemos definir coeficientes de reflexión, absorción y transmis
     \begin{defn}
         \label{defn:coefficients}
     \end{defn}
-    \cusTitle{Coeficientes energéticos}
-    \cusText{Coeficiente de reflexión}
+    \cusTi{Coeficientes energéticos}
+    \cusTe{Coeficiente de reflexión}
     \begin{equation*}
         \alpha_R = \frac{W_R}{\sub{W}{in}}
     \end{equation*}
@@ -2420,26 +2394,27 @@ Se pueden plantear dos tipos de análisis. Por un lado, se puede estudiar la abs
 Para estudiar las reflexiones de un recinto cerrado o un obstáculo y cómo estas serán percibidas desde cierto punto de escucha, se definen los siguientes conceptos.
 
 \begin{itemize}
-    \item \cusTitle{Campo libre}
-    \cusText{Espacio de propagación libre de obstáculos y por tanto sin reflexiones.}
+    \item \cusTi{Campo libre}
+    \cusTe{Espacio de propagación libre de obstáculos y por tanto sin reflexiones.}
     
-    \item \cusTitle{Campo cercano}
-    \cusText{Espacio donde la impedancia es compleja.}
+    \item \cusTi{Campo cercano}
+    \cusTe{Espacio donde la impedancia es compleja.}
     
-    \item \cusTitle{Campo lejano}
-    \cusText{Espacio donde la impedancia imaginaria es despreciable.}
+    \item \cusTi{Campo lejano}
+    \cusTe{Espacio donde la impedancia imaginaria es despreciable.}
     
-    \item \cusTitle{Campo directo}
-    \cusText{Espacio no alterado por reflexiones durante el régimen permanente. El nivel de presión cumple la ley cuadrática inversa (Sec. \ref{sec:inverseSquareLaw}).}
+    \item \cusTi{Campo directo}
+    \cusTe{Espacio no alterado por reflexiones durante el régimen permanente. El nivel de presión cumple la ley cuadrática inversa (Sec. \ref{sec:inverseSquareLaw}).}
     
-    \item \cusTitle{Campo difuso o reverberante}
-    \cusText{Predominancia de sonido reflejado con igual probabilidad en todas las direcciones durante el régimen permanente. El nivel de presión no disminuye por divergencia, sino que permanece constante al aumentar distancia.}
+    \item \cusTi{Campo difuso o reverberante}
+    \cusTe{Predominancia de sonido reflejado con igual probabilidad en todas las direcciones durante el régimen permanente. El nivel de presión no disminuye por divergencia, sino que permanece constante al aumentar distancia.}
 \end{itemize}
 
 Que pueden ser visualizados en el siguiente gráfico que determina el nivel de presión $SPL$ percibido en función de la distancia $r$ a la fuente.
 
 \begin{center}
-    \includegraphics[width=8.5cm]{soundFields.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/campos-de-sonido.pdf_tex}
 \end{center}
 
 Donde $d_c$ es la distancia crítica y $\mathcal{R}$ la constante de sala, que a su vez depende del coeficiente de absorción promedio $\overline{\alpha}$ definidos a continuación.
@@ -2447,8 +2422,8 @@ Donde $d_c$ es la distancia crítica y $\mathcal{R}$ la constante de sala, que a
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Distancia crítica}
-    \cusText{Distancia a la que el nivel de presión del campo reverberado es igual al del campo directo.}
+    \cusTi{Distancia crítica}
+    \cusTe{Distancia a la que el nivel de presión del campo reverberado es igual al del campo directo.}
     \begin{equation*}
         d_c = \sqrt{\frac{Q\,\mathcal{R}}{16\pi}}
     \end{equation*}
@@ -2461,7 +2436,7 @@ Esto equivale a considerar $p_T^2=0$ en la ecuación \ref{eqn:criticalDist}, pud
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Constante de sala}
+    \cusTi{Constante de sala}
     \begin{equation*}
         \mathcal{R} = \frac{\overline{\alpha} \, S_T}{1-\overline{\alpha}}
     \end{equation*}
@@ -2470,7 +2445,7 @@ Esto equivale a considerar $p_T^2=0$ en la ecuación \ref{eqn:criticalDist}, pud
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Coeficiente de absorción promedio}
+    \cusTi{Coeficiente de absorción promedio}
     \begin{equation*}
         \overline{\alpha} = \frac{\sum \alpha_\ith \, S_\ith}{S_T}
     \end{equation*}
@@ -2479,20 +2454,21 @@ Esto equivale a considerar $p_T^2=0$ en la ecuación \ref{eqn:criticalDist}, pud
 Consideremos un punto de escucha para una sala en la que una fuente comienza a radiar energía sonora. Al prenderse la fuente, el sonido emitido chocará contra las paredes, el techo y el piso y rápidamente comenzarán a darse reflexiones dentro de la sala. Se estudia, a partir de ese momento, la evolución de la energía aportada por el campo difuso conforme pasa el tiempo.
 
 \begin{itemize}
-    \item \cusTitle{Etapa de crecimiento:}
+    \item \cusTi{Etapa de crecimiento:}
     A medida que el punto es afectado por las reflexiones, la presión aumenta, y por ende la energía también lo hace. Aunque, una porción de la energía es absorbida por las superficies en cada reflexión.
     
-    \item \cusTitle{Régimen permanente:}
+    \item \cusTi{Régimen permanente:}
     A mayor tiempo, las reflexiones que impacten el punto de escucha serán de mayor orden, aportando menos energía. Pero como la fuente sigue radiando, la energía absorbida por la sala cada vez crece más. Para el momento en que la energía absorbida iguale la energía reflejada, la energía en el punto de escucha permanecerá constante.
     
-    \item \cusTitle{Etapa de decaimiento:}
+    \item \cusTi{Etapa de decaimiento:}
     Si la fuente deja de emitir sonido, ya no se generarán nuevas reflexiones. La energía que reciba el punto solo será de las reflexiones ya existentes, hasta que se disipen por completo.
 \end{itemize}
 
 A continuación se esquematiza la evolución de la energía de la sala en función del tiempo, descripta anteriormente.
 
 \begin{center}
-    \includegraphics[width=4.7cm]{roomEnergy.png}
+    \def\svgwidth{0.5\linewidth}
+    \input{./images/energia-sala.pdf_tex}
 \end{center}
 
 Se pretende estudiar el aporte energético del capo difuso durante el régimen permanente para cualquier punto de un recinto, independientemente del sonido directo que reciba.
@@ -2500,7 +2476,8 @@ Se pretende estudiar el aporte energético del capo difuso durante el régimen p
 Para esto, se suman los infinitos vectores intensidad de las reflexiones de orden superior que eventualmente van a incidir sobre un elemento de superficie del recinto. Todas las direcciones de incidencia son equiprobables, por estar bajo la hipótesis de campo difuso. La superficie de incidencia es representada en la siguiente figura como la intersección entre un plano vertical y una semiesfera.
 
 \begin{center}
-    \includegraphics[width=4.5cm]{diffuseIntegration.png}
+    \def\svgwidth{0.6\linewidth}
+    \input{./images/campo-difuso-int.pdf_tex}
 \end{center}
 
 El plano vertical corresponde al segmento de superficie sobre la que se quiere evaluar la incidencia. Los versores normales de la superficie semiesférica representan las direcciones de posible incidencia para el punto central. Integrando, se tiene que la intensidad incidente es: % Falta demostrar
@@ -2560,7 +2537,7 @@ Siendo $10 \log \left( \frac{Z \, \sub{W}{ref}}{\sub{p}{ref}^2} \right)= 0.1\,\s
     \begin{prop}
         \label{prop:directDiffuseFields}
     \end{prop}
-    \cusTitle{Aporte de campo directo y campo difuso}
+    \cusTi{Aporte de campo directo y campo difuso}
     \begin{equation*}
         SPL_T = L_W + 10 \log \left( \frac{Q}{S} + \frac{4}{\mathcal{R}} \right)
     \end{equation*}
@@ -2574,12 +2551,13 @@ Las reflexiones pueden ser calculadas como una suma correlacionada de un sonido 
 En el esquema a continuación, la línea de puntos y rayas representa el rayo de sonido directo. En línea contínua se muestra el recorrido real del rayo de sonido reflejado. Y la línea de rayas muestra un tramo del recorrido del sonido de la fuente imagen o virtual.
 
 \begin{center}
-    \includegraphics[width=8cm]{virtual.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/fuentes-virtuales.pdf_tex}
 \end{center}
 
 La potencia de la fuente real va a ser $W$ mientras que la potencia de la fuente virtual depende del orden $n$ de reflexión:
 \begin{equation*}
-    \bis{W} = W \left(1-\alpha\right)^n
+    \tilde{W} = W \left(1-\alpha\right)^n
 \end{equation*}
 
 La diferencia entre las distancias directa y reflejada va a estar dada por la velocidad de propagación del sonido, y la diferencia de tiempo de arribo de cada rayo como sigue.
@@ -2618,7 +2596,7 @@ Obteniendo así:
 \begin{mdframed}[style=MyFrame1]
     \begin{prop}
     \end{prop}
-    \cusTitle{Suma correlacionada}
+    \cusTi{Suma correlacionada}
     \begin{equation*}
         \rms{p}^2 = \frac{\norm{\sub{p}{dir}}^2}{2} \left[ 1 + \left(\frac{r_1}{r_2}\right)^2 + 2 \left(\frac{r_1}{r_2}\right) \cos (k \, \Delta r) \right]
     \end{equation*}
@@ -2648,7 +2626,7 @@ Se define el tiempo de reverberación como el tiempo necesario para que el nivel
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Tiempo de reverberación}
+    \cusTi{Tiempo de reverberación}
     \begin{equation*}
         TR = \overbrace{ \frac{24}{c \, \log (e)} }^{\approx 0.161\,\si{\second\per\metre}} \, \frac{V}{\mathcal{A}}
     \end{equation*}
@@ -2730,7 +2708,7 @@ El \emph{Noise Reduction} consiste en medir la presión en la entrada del silenc
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Noise Reduction}
+    \cusTi{Noise Reduction}
     \begin{equation*}
         NR = 20 \log \left( \frac{\sub{p}{in}}{p_T} \right)
     \end{equation*}
@@ -2738,16 +2716,17 @@ El \emph{Noise Reduction} consiste en medir la presión en la entrada del silenc
 
 Este método es útil en situaciones donde solamente hay ondas propagativas con $R\to 0$ tanto en la entrada como en la salida del silenciador. Pero esta aproximación rara vez es válida, y es probable que los puntos de medición estén dados en nodos.
 
-% \begin{center}
-%     \includegraphics[width=5.5cm]{NR.png}
-% \end{center}
+\begin{center}
+    \def\svgwidth{0.5\linewidth}
+    \input{./images/silenciador-nr.pdf_tex}
+\end{center}
 
 El \emph{Insertion Loss} sirve para medir la presión transmitida por un silenciador y compararla con la presión que se tenía antes de instalar el silenciador.
 
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Insertion Loss}
+    \cusTi{Insertion Loss}
     \begin{equation*}
         IL = 10 \log \left( \frac{W_0}{W_T} \right)
     \end{equation*}
@@ -2755,9 +2734,10 @@ El \emph{Insertion Loss} sirve para medir la presión transmitida por un silenci
 
 La medición se hace en un punto externo al silenciador. Es útil para caracterizar el comportamiento de un silenciador en un recinto con condiciones particulares. Pero no permite sacar conclusiones generales sobre el comportamiento del silenciador en sí.
 
-% \begin{center}
-%     \includegraphics[width=5.5cm]{IL.png}
-% \end{center}
+\begin{center}
+    \def\svgwidth{0.5\linewidth}
+    \input{./images/silenciador-il.pdf_tex}
+\end{center}
 
 La pérdida de transmisibilidad o \emph{Transmission Loss} relacionan la potencia acústica incidente al sistema con la transmitida.
 
@@ -2765,7 +2745,7 @@ La pérdida de transmisibilidad o \emph{Transmission Loss} relacionan la potenci
     \begin{defn}
         \label{defn:TL}
     \end{defn}
-    \cusTitle{Transmission Loss}
+    \cusTi{Transmission Loss}
     \begin{equation*}
         TL = 10 \log \left( \frac{\sub{W}{in}}{W_T} \right)
         = 10 \log \left( \frac{1}{\tau} \right)
@@ -2777,7 +2757,8 @@ De esta forma se puede evaluar la efectividad de los silenciadores independiente
 A continuación se tiene un esquema con los puntos de medición en la entrada y la salida de un silenciador para calcular el Transmission Loss del sistema.
 
 \begin{center}
-    \includegraphics[width=5.5cm]{TL.png}
+    \def\svgwidth{0.5\linewidth}
+    \input{./images/silenciador-tl.pdf_tex}
 \end{center}
 
 Se determinan las mediciones $\sub{p}{in}_1$ y $\sub{p}{in}_2$ en puntos de máxima y mínima presión, denominados $\sub{p}{max}$ y $\sub{p}{min}$ respectivamente.
@@ -2832,7 +2813,7 @@ Pudiendo definir la relación entre las presiones máxima y mínima:
 \begin{mdframed}[style=MyFrame1]
     \begin{defn}
     \end{defn}
-    \cusTitle{Coeficiente de onda estacionaria}
+    \cusTi{Coeficiente de onda estacionaria}
     \begin{equation*}
         s=\left( \frac{1+R}{1-R} \right)^2
     \end{equation*}
@@ -2849,7 +2830,8 @@ Si una onda se propaga por un medio gaseoso y pasa a propagarse a un medio sóli
 La siguiente situación ilustra una situación habitual en la que se tiene dos recintos separados por una pared, una fuente radiante en un recinto y se quiere estudiar la presión transmitida al otro recinto.
 
 \begin{center}
-    \includegraphics[width=8cm]{medium.png}
+    \def\svgwidth{0.7\linewidth}
+    \input{./images/energia-medio.pdf_tex}
 \end{center}
 
 Observar que el origen de coordenadas $x_0$ está dado en el límite entre la pared y el recinto donde está la fuente.
@@ -2964,7 +2946,7 @@ Reemplazando la ecuación \ref{eqn:mediumPin/PT} en el coeficiente de transmisi�
 \begin{mdframed}[style=MyFrame1]
     \begin{prop}
     \end{prop}
-    \cusTitle{Ley de masa}
+    \cusTi{Ley de masa}
     \begin{equation*}
         \frac{1}{\tau} = 1 + \left( \frac{\pi \, f \ \sigma}{\rho_0 \, c} \right)^2
     \end{equation*}
@@ -2976,8 +2958,8 @@ La pérdida de transmisibilidad (Def. \ref{defn:TL}) se definió en función del
 \begin{mdframed}[style=MyFrame1]
     \begin{prop}
     \end{prop}
-    \cusTitle{Transmission Loss}
-    \cusText{De una superficie constante para un cambio de impedancia dado por la variación de densidad.}
+    \cusTi{Transmission Loss}
+    \cusTe{De una superficie constante para un cambio de impedancia dado por la variación de densidad.}
     \begin{equation*}
         TL = 10 \log \left[ 1 + \left( \frac{\pi \, f \ \sigma}{\rho_0 \, c} \right)^2 \right]
     \end{equation*}
@@ -3016,8 +2998,8 @@ Luego, aplicando la definición \ref{defn:TL}, el TL queda:
 \begin{mdframed}[style=MyFrame1]
     \begin{prop}
     \end{prop}
-    \cusTitle{Transmision Loss}
-    \cusText{Entre recintos con campo difuso.}
+    \cusTi{Transmision Loss}
+    \cusTe{Entre recintos con campo difuso.}
     \begin{equation*}
         TL = \Delta L_p + 10 \log \left( \frac{S}{\mathcal{R}} \right)
     \end{equation*}
@@ -3032,7 +3014,8 @@ Luego, aplicando la definición \ref{defn:TL}, el TL queda:
 Una cámara de expansión es un silenciador que produce una atenuación mediante un cambio abrupto de sección en el conducto recorrido por la onda. Consiste en dos cilindros de entrada y salida unidos por otro cilindro concéntrico de mayor diámetro. En la figura a continuación se observa un esquema de una cámara de expansión.
 
 \begin{center}
-    \includegraphics[width=8cm]{expChamber.png}
+    \def\svgwidth{\linewidth}
+    \input{./images/silenciador-cam-exp.pdf_tex}
 \end{center}
 
 La relación entre la potencia incidente del medio 1 y la potencia transmitida en el medio 3 está dada por:
@@ -3063,7 +3046,8 @@ Observar en la ecuación anterior que la pérdida de transmisión será máxima 
 Un silenciador side branch o de ramificación lateral, también conocido como silenciador de cuarto de onda, consiste en un tubo que tiene un solo extremo cerrado y está anexado al ducto por el cual se propaga la onda. A continuación se tiene un esquema.
 
 \begin{center}
-    \includegraphics[width=8cm]{sideBranch.png}
+    \def\svgwidth{\linewidth}
+    \input{./images/silenciador-side-branch.pdf_tex}
 \end{center}
 
 Planteando las hipótesis de continuidad:
@@ -3100,7 +3084,8 @@ Por lo tanto, las frecuencias para las que el side branch genera mayor atenuaci�
 Un volumen de aire encerrado está interconectado con un recinto mediante un pequeño conducto. Una onda de sonido que se propaga en el recinto impacta el orificio excitando el aire del conducto.
 
 \begin{center}
-    \includegraphics[width=6cm]{Helmholtz.png}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/helmholtz.pdf_tex}
 \end{center}
 
 Debido a la geometría del conducto, el aire que hay dentro se mueve como una masa acústica con presión constante a lo largo del mismo para aquellas frecuencias que verifiquen $L<<\lambda$. Es decir que, si bien puede haber movimiento de partículas, la masa de aire $m$ se mueve en bloque a presión atmosférica constante. Como el aire encerrado en el volumen $V$ sí es compresible, el sistema en conjunto se comporta de manera análoga a un sistema masa-resorte.
@@ -3135,55 +3120,56 @@ Por lo tanto, la frecuencia de resonancia es:
     f_0 = \frac{c}{2\pi} \sqrt{\frac{S}{V \left( L+ \Delta L \right)}}
 \end{equation*}
 
+\begin{comment}
+\section{Método de Delany-Bazley}
 
-% \section{Método de Delany-Bazley}
+Consiste en un método para calcular la impedancia equivalente que tendría un tubo con material absorbente dentro.
 
-% Consiste en un método para calcular la impedancia equivalente que tendría un tubo con material absorbente dentro.
+Una onda se propaga en un tubo que tiene material absorbente en uno de sus extremos, como se muestra en el siguiente esquema.
 
-% Una onda se propaga en un tubo que tiene material absorbente en uno de sus extremos, como se muestra en el siguiente esquema.
+\begin{center}
+    \def\svgwidth{0.8\linewidth}
+    \input{./images/delany-bazley.pdf_tex}
+\end{center}
 
-% \begin{center}
-%     \includegraphics[width=5.7cm]{DelanyBazley.png}
-% \end{center}
+La impedancia equivalente del otro extremo está dada por:
+\begin{equation*}
+    \sub{Z}{in} = \frac{Z_s \cos(kL-kD) + Z_0 \, \iu \sin (kL-kD)}{Z_0 \cos(kL-kD) + Z_s \, \iu \sin (kL-kD)}
+\end{equation*}
 
-% La impedancia equivalente del otro extremo está dada por:
-% \begin{equation*}
-%     \sub{Z}{in} = \frac{Z_s \cos(kL-kD) + Z_0 \, \iu \sin (kL-kD)}{Z_0 \cos(kL-kD) + Z_s \, \iu \sin (kL-kD)}
-% \end{equation*}
+Si el Side Branch es cerrado:
+\begin{equation*}
+    \sub{Z}{in} = \frac{Z_0}{\iu \tan (kL)} \propto \frac{\lambda}{L}
+\end{equation*}
 
-% Si el Side Branch es cerrado:
-% \begin{equation*}
-%     \sub{Z}{in} = \frac{Z_0}{\iu \tan (kL)} \propto \frac{\lambda}{L}
-% \end{equation*}
+Si el Side Branch es abierto:
+\begin{equation*}
+    \sub{Z}{in} = Z_0 \, \iu \tan (kL) \propto \frac{L}{\lambda}
+\end{equation*}
 
-% Si el Side Branch es abierto:
-% \begin{equation*}
-%     \sub{Z}{in} = Z_0 \, \iu \tan (kL) \propto \frac{L}{\lambda}
-% \end{equation*}
+Sean $\Phi$ la porosidad y $\sigma$ el trabajo del aire para pasar se tiene:
+\begin{gather*}
+    Z_e = Z_0 \left[ 1 + 0.0571 \, X^{-0.754} - \iu \, 0.087 \, X^{-0.732} \right]
+    \\
+    k_e = \frac{\omega}{c} \left[ 1 + 0.0978 \, X^{-0.7} - \iu \, 0.189 \, X^{-0.595} \right]
+\end{gather*}
 
-% Sean $\Phi$ la porosidad y $\sigma$ el trabajo del aire para pasar se tiene:
-% \begin{gather*}
-%     Z_e = Z_0 \left[ 1 + 0.0571 \, X^{-0.754} - \iu \, 0.087 \, X^{-0.732} \right]
-%     \\
-%     k_e = \frac{\omega}{c} \left[ 1 + 0.0978 \, X^{-0.7} - \iu \, 0.189 \, X^{-0.595} \right]
-% \end{gather*}
+Donde:
+\begin{equation*}
+    X = \frac{\rho_0 \, f}{\sigma}
+\end{equation*}
 
-% Donde:
-% \begin{equation*}
-%     X = \frac{\rho_0 \, f}{\sigma}
-% \end{equation*}
-
-% Quedando la impedancia dada por:
-% \begin{equation*}
-%     Z_s = \frac{Z_e}{\Phi \, \iu \tan (k_e \, D)}
-% \end{equation*}
-
+Quedando la impedancia dada por:
+\begin{equation*}
+    Z_s = \frac{Z_e}{\Phi \, \iu \tan (k_e \, D)}
+\end{equation*}
+\end{comment}
 
 \begin{thebibliography}{3}
-    \bibitem{1} \textsc{Malvicino, Maximiliano R. \& Bosio, Federico A. (2021). Súper libro de Física. \\ (\url{https://bit.ly/malvicinobosio}})
+    \bibitem{1} \textsc{Malvicino, Maximiliano R. \& Bosio, Federico A. (2021). Súper libro de Física. \\ (\url{https://github.com/mrmalvicino/super-libro-de-fisica}})
     
     \bibitem{2} \textsc{Malvicino, Maximiliano R. (2022). Notas de Matemática para ingeniería. \\
-    (\url{https://bit.ly/malvicinomatematica}})
+    (\url{https://github.com/mrmalvicino/notas-de-matematica}})
     
     \bibitem{3} \textsc{Masson, F. (2021). Acústica y Psicoacústica 1. Apuntes de clase.}
 \end{thebibliography}

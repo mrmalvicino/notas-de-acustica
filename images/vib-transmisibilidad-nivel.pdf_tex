@@ -53,7 +53,6 @@
   \begin{picture}(1,0.75)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.00788587,0.83848321){\transparent{0.2}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}log(sqrt((1+(2*0.1*x)*(2*0.1*x))/((1-x*x)*(1-x*x)+(2*0.1*x)*(2*0.1*x))))\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{vib-transmisibilidad-nivel.pdf}}%
     \put(0.37960265,0.39618349){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$r=\sqrt{2}$\end{tabular}}}}%
     \put(0.90876923,0.39618349){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
