@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180mm"
+   height="90mm"
+   viewBox="0 0 180 90"
+   version="1.1"
+   id="svg7163"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="silenciador-cam-exp.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7165"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.67081229"
+     inkscape:cx="357.7752"
+     inkscape:cy="84.226245"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs7160" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1474-1"
+       width="47.707611"
+       height="39.021351"
+       x="95.470886"
+       y="44.605648"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1474-3"
+       width="19.042959"
+       height="16.257217"
+       x="143.17847"
+       y="55.98772"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png" />
+    <path
+       id="path1493-45"
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 15.141951,57.912397 a 6.8153734,4.6772175 60 0 1 -7.45827,-3.56367 6.8153734,4.6772175 60 0 1 0.6429,-8.240904 6.8153734,4.6772175 60 0 1 7.45828,3.563683 6.8153734,4.6772175 60 0 1 -0.64291,8.240891 z"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 26.148581,35.818287 c 2.23708,-1.291579 5.57626,0.303936 7.45827,3.563683 1.88202,3.259746 1.59418,6.949315 -0.6429,8.240893"
+       id="path1643"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 32.963951,47.622863 c -2.23708,1.291577 -5.57626,-0.30393 -7.45827,-3.563675 -1.88202,-3.259744 -1.59419,-6.949322 0.6429,-8.240901"
+       id="path1493-4"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 8.326571,46.107823 17.822,-10.28954"
+       id="path1511"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 15.141951,57.912407 32.963941,47.622863"
+       id="path1511-5"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1493-4-9"
+       cx="50.899967"
+       cy="-4.6331644"
+       rx="17.851301"
+       ry="12.279528"
+       transform="matrix(0.50175178,0.86501165,-0.86703324,0.49825031,0,0)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 20.599341,26.278993 32.1185,-18.70853"
+       id="path1511-8"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 38.513191,57.162167 32.1185,-18.708534"
+       id="path1511-8-9"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 52.717841,7.570465 c 5.88005,-3.379032 14.65691,0.795154 19.60369,9.323304 4.94677,8.528148 4.19021,18.180836 -1.68984,21.559869"
+       id="path1681-6"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.49999, 1.49999;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 70.631691,38.453638 c -5.88004,3.379033 -14.65691,-0.795161 -19.60368,-9.323313 -4.94677,-8.52815 -4.19021,-18.180829 1.68983,-21.55986"
+       id="path1493-4-9-1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.267081,17.109763 17.822,-10.28954"
+       id="path1511-7"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 76.089081,6.820229 c 2.23708,-1.291578 5.57626,0.303929 7.45828,3.563674 1.88201,3.259746 1.59417,6.949315 -0.64291,8.240893"
+       id="path1631"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 82.904451,18.624796 c -2.23707,1.291578 -5.57625,-0.303929 -7.45827,-3.563674 -1.88201,-3.259746 -1.59417,-6.949315 0.6429,-8.240893"
+       id="path1493-4-6"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 65.082461,28.914343 17.82199,-10.28954"
+       id="path1511-5-1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path1493-48"
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 65.082461,28.914343 a 6.8153735,4.6772176 60 0 1 -7.45828,-3.56368 6.8153735,4.6772176 60 0 1 0.6429,-8.2409 6.8153735,4.6772176 60 0 1 7.45828,3.56369 6.8153735,4.6772176 60 0 1 -0.6429,8.24089 z"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g1727"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="translate(-30.466789,-149.96656)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-39"
+         d="M 120.93332,208.79121 H 112.109"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path872-4-5"
+         d="m 120.80742,208.79121 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1723"
+       transform="matrix(-1,0,0,1,207.56215,-149.96656)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1717"
+         d="M 120.93332,219.37455 H 112.109"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1719"
+         d="m 120.80742,219.37455 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1727-0"
+       transform="translate(31.069491,-149.96656)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-3"
+         d="M 120.93332,208.79121 H 112.109"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path872-4-9"
+         d="m 120.80742,208.79121 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1727-0-9"
+       transform="translate(-16.638119,-155.25823)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-3-0"
+         d="M 120.93332,208.79121 H 112.109"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path872-4-9-4"
+         d="m 120.80742,208.79121 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1775"
+       transform="matrix(-1,0,0,1,221.39082,-134.09157)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1771"
+         d="M 120.93332,208.79121 H 112.109"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1773"
+         d="m 120.80742,208.79121 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1804"
+       width="19.042959"
+       height="16.257217"
+       x="76.42791"
+       y="55.98772"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png" />
+    <path
+       id="path2972-4"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 140.95931,81.703187 c -2.49581,0.42334 -1.34623,-13.83993 -1.34623,-13.83993 0,0 0.19697,-2.88974 -1.72626,-3.74694 m 3.07249,-17.586878 c -2.49581,-0.42333 -1.34623,13.839988 -1.34623,13.839988 0,0 0.19697,2.88972 -1.72626,3.74689"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png" />
+    <path
+       id="path1513"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 163.93838,72.602107 c 1.19331,0.20426 0.64367,-6.67786 0.64367,-6.67786 0,0 -0.0942,-1.39433 0.82537,-1.80793 m -1.46904,-8.48579 c 1.19331,-0.20427 0.64367,6.67789 0.64367,6.67789 0,0 -0.0942,1.39431 0.82537,1.8079"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png" />
+    <path
+       id="path1525"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 74.714041,72.602107 c -1.19331,0.20426 -0.64367,-6.67786 -0.64367,-6.67786 0,0 0.0942,-1.39433 -0.82537,-1.80793 m 1.46904,-8.48579 c -1.19331,-0.20427 -0.64367,6.67789 -0.64367,6.67789 0,0 0.0942,1.39431 -0.82537,1.8079"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png" />
+    <path
+       id="path2972-7-1"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 97.016291,42.67474 c -0.53707,-2.49581 17.555499,-1.346229 17.555499,-1.346229 0,0 3.66551,0.19697 4.75283,-1.726261 m 22.30848,3.072491 c 0.53693,-2.495811 -17.55564,-1.346231 -17.55564,-1.346231 0,0 -3.66549,0.196974 -4.75284,-1.72626"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\Admin\Desktop\expChamber.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="116.3389"
+       y="36.774536"
+       id="text1654"><tspan
+         sodipodi:role="line"
+         id="tspan1652"
+         style="stroke-width:0.264583"
+         x="116.3389"
+         y="36.774536">$L$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="167.24529"
+       y="65.551315"
+       id="text1654-5"><tspan
+         sodipodi:role="line"
+         id="tspan1652-0"
+         style="stroke-width:0.264583"
+         x="167.24529"
+         y="65.551315">$S_3$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="63.384041"
+       y="65.551315"
+       id="text2341"><tspan
+         sodipodi:role="line"
+         id="tspan2339"
+         style="stroke-width:0.264583"
+         x="63.384041"
+         y="65.551315">$S_1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="129.05334"
+       y="65.551315"
+       id="text2527"><tspan
+         sodipodi:role="line"
+         id="tspan2525"
+         style="stroke-width:0.264583"
+         x="129.05334"
+         y="65.551315">$S_2$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.550697"
+       y="65.551315"
+       id="text3151"><tspan
+         sodipodi:role="line"
+         id="tspan3149"
+         style="stroke-width:0.264583"
+         x="84.550697"
+         y="65.551315">$Z_1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="111.00901"
+       y="65.551315"
+       id="text3601"><tspan
+         sodipodi:role="line"
+         id="tspan3599"
+         style="stroke-width:0.264583"
+         x="111.00901"
+         y="65.551315">$Z_2$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="97.077316"
+       y="50.168846"
+       id="text3601-3"><tspan
+         sodipodi:role="line"
+         id="tspan3599-7"
+         style="stroke-width:0.264583"
+         x="97.077316"
+         y="50.168846"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0.59163344">$\sub{p}{in2}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="148.05069"
+       y="65.551315"
+       id="text4753"><tspan
+         sodipodi:role="line"
+         id="tspan4751"
+         style="stroke-width:0.264583"
+         x="148.05069"
+         y="65.551315">$Z_3$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="80.577652"
+       y="52.929802"
+       id="text5544"><tspan
+         sodipodi:role="line"
+         id="tspan5542"
+         style="stroke-width:0.264583"
+         x="80.577652"
+         y="52.929802"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0.59163344">$\sub{p}{in1}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="145.6223"
+       y="52.929802"
+       id="text5928"><tspan
+         sodipodi:role="line"
+         id="tspan5926"
+         style="stroke-width:0.264583"
+         x="145.6223"
+         y="52.929802"
+         dy="0 0 0 0 0.59163344">$p_T$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="96.318718"
+       y="81.229607"
+       id="text5928-1"><tspan
+         sodipodi:role="line"
+         id="tspan5926-8"
+         style="stroke-width:0.264583"
+         x="96.318718"
+         y="81.229607"
+         dy="0 0 0 0 0 0 0 0.59163344">$p_{R2}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.579px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="81.33168"
+       y="78.074226"
+       id="text6653"><tspan
+         sodipodi:role="line"
+         id="tspan6651"
+         style="stroke-width:0.264583"
+         x="81.33168"
+         y="78.074226"
+         dy="0 0 0 0 0 0 0 0.59163344">$p_{R1}$</tspan></text>
+  </g>
+</svg>

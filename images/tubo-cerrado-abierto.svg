@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120mm"
+   height="85mm"
+   viewBox="0 0 120 85"
+   version="1.1"
+   id="svg5696"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="tubo-cerrado-abierto.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5698"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.67081229"
+     inkscape:cx="276.53041"
+     inkscape:cy="203.48464"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs5693">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8473"
+       id="linearGradient25352"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,1,284.88896,310.98151)"
+       x1="282.50391"
+       y1="-266.29965"
+       x2="282.50391"
+       y2="-245.27028" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8473">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.05"
+         offset="0"
+         id="stop8469" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.2"
+         offset="1"
+         id="stop8471" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:connector-curvature="0"
+       d="m 38.680736,13.351526 c -0.81129,-2.43511 26.52319,-1.31348 26.52319,-1.31348 0,0 5.53791,0.19218 7.1807,-1.68428 m 33.703804,2.99776 c 0.81128,-2.43511 -26.523194,-1.31348 -26.523194,-1.31348 0,0 -5.53792,0.19218 -7.18061,-1.68428"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path25298"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Graphs\Termo\CalorConduParal.png" />
+    <path
+       style="fill:#000000;fill-opacity:0.2;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+       d="m 113.4033,44.941396 c 0,11.57255 -2.34535,20.95395 -5.23848,20.95393 H 7.623336 c -2.89314,-1e-5 -5.23849,-9.3814 -5.23849,-20.95393 0,-11.57253 2.34535,-20.95392 5.23847,-20.95392 l 100.541494,-10e-6 c 2.89314,-3e-5 5.23849,9.38138 5.23849,20.95393 z"
+       id="path25306"
+       sodipodi:nodetypes="sccsccs"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0"
+       d="m 108.16462,65.895316 c -2.89313,-10e-6 -5.23848,-9.3814 -5.23848,-20.95393 0,-11.57254 2.34535,-20.95393 5.23848,-20.95394"
+       id="path25308"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:url(#linearGradient25352);fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 12.861626,44.941406 c 0,-11.57254 -2.34535,-20.95393 -5.23828,-20.95394 -2.89294,-3e-5 -5.23829,9.38137 -5.23829,20.95392 0,11.57255 2.34535,20.95395 5.23829,20.95394 2.89293,0 5.23828,-9.38139 5.23828,-20.95392 z"
+       id="path25310"
+       sodipodi:nodetypes="scscs"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+       d="m 7.623336,23.987466 c 2.89314,-2e-5 5.23849,9.38138 5.23849,20.95393 0,11.57255 -2.34535,20.95395 -5.23849,20.95393"
+       id="path25312"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#000000;fill-opacity:0.2;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 36.700726,23.987456 c 2.89314,-2e-5 5.23849,9.38138 5.23849,20.95393 0,11.57255 -2.34535,20.95393 -5.23849,20.95393 h -2.61924 c 2.89314,2e-5 5.23849,-9.38138 5.23849,-20.95393 0,-11.57255 -2.34535,-20.95395 -5.23849,-20.95393 z"
+       id="path25314"
+       sodipodi:nodetypes="ssscscs"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#000000;fill-opacity:0.1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 28.848376,44.941406 c 0,-11.57254 2.34535,-20.95393 5.23828,-20.95394 2.89294,-3e-5 5.23829,9.38137 5.23829,20.95392 0,11.57255 -2.34535,20.95395 -5.23829,20.95394 -2.89293,0 -5.23828,-9.38139 -5.23828,-20.95392 z"
+       id="path25316"
+       sodipodi:nodetypes="scscs"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0"
+       d="m 34.081756,65.895336 c -2.89313,-1e-5 -5.23848,-9.3814 -5.23848,-20.95393 0,-11.57254 2.34535,-20.95393 5.23848,-20.95394"
+       id="path25318"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 36.700716,65.895316 v 8.41636"
+       id="path25324"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 108.06844,65.857736 v 8.41636"
+       id="path25332"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g25338"
+       transform="translate(-269.64227,310.98151)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 306.34299,-286.994 v -8.41636"
+         id="path25334" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 377.71071,-286.95642 v -8.41636"
+         id="path25336" />
+    </g>
+    <g
+       id="g25344"
+       style="opacity:0.8"
+       transform="translate(-269.64227,310.98151)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         inkscape:connector-curvature="0"
+         id="path25340"
+         d="m 294.08773,-266.04006 h 9.63672"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path25342"
+         d="m 294.18551,-266.04006 v -1.31852 c 0,0 -0.67126,1.0788 -5.13025,1.31852 4.45899,0.23972 5.13025,1.31852 5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g25350"
+       transform="matrix(-1,0,0,1,330.2051,340.74562)"
+       style="opacity:0.4"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\tubeCO.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         inkscape:connector-curvature="0"
+         id="path25346"
+         d="m 286.48172,-295.80417 h 9.63672"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path25348"
+         d="m 286.5795,-295.80417 v -1.31852 c 0,0 -0.67126,1.0788 -5.13025,1.31852 4.45899,0.23972 5.13025,1.31852 5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.42778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="71.386208"
+       y="6.6820664"
+       id="text1339"><tspan
+         sodipodi:role="line"
+         id="tspan1337"
+         style="stroke-width:0.264583"
+         x="71.386208"
+         y="6.6820664">$L$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.42778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="103.09316"
+       y="80.888931"
+       id="text1339-2"><tspan
+         sodipodi:role="line"
+         id="tspan1337-1"
+         style="stroke-width:0.264583"
+         x="103.09316"
+         y="80.888931">$x=L$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.42778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="34.301506"
+       y="80.888931"
+       id="text2347"><tspan
+         sodipodi:role="line"
+         id="tspan2345"
+         style="stroke-width:0.264583"
+         x="34.301506"
+         y="80.888931">$x_0=0$</tspan></text>
+  </g>
+</svg>

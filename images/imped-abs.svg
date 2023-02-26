@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110mm"
+   height="90mm"
+   viewBox="0 0 110 90"
+   version="1.1"
+   id="svg4419"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="imped-abs.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4421"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3416246"
+     inkscape:cx="108.82329"
+     inkscape:cy="95.779402"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4416" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path38176"
+       d="M 20.001038,19.48085 V 85.55202"
+       style="fill:none;stroke:#000000;stroke-width:0.300001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedanceAbs.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path38178"
+       d="m 20.001038,19.22839 h -1.31852 c 0,0 1.0788,-0.67126 1.31852,-5.13025 0.23972,4.45899 1.31852,5.13025 1.31852,5.13025 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedanceAbs.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path38180"
+       d="M 100.3274,74.96869 H 9.417708"
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedanceAbs.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path38182"
+       d="m 100.3274,74.96869 v -1.31853 c 0,0 0.67126,1.07881 5.13025,1.31853 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedanceAbs.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.507144;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 20.004608,74.96512 c 1.24339,-6.00187 2.48676,-11.62586 3.73015,-16.29143 1.24337,-4.66575 2.48676,-8.40611 3.73015,-11.38158 1.24337,-2.97546 2.48676,-5.21232 3.73151,-7.00152 1.24339,-1.78919 2.48676,-3.13109 3.73015,-4.22237 1.24337,-1.0911 2.48676,-1.92729 3.73013,-2.61923 1.24339,-0.69175 2.48677,-1.23628 3.73015,-1.6944 1.24477,-0.45793 2.48814,-0.8276 3.73153,-1.14316 1.24337,-0.31537 2.48676,-0.57587 3.73013,-0.80092 1.24339,-0.22523 2.48676,-0.41445 3.73015,-0.58016 1.24338,-0.16552 2.48814,-0.30697 3.73152,-0.432 1.24338,-0.12484 2.48677,-0.23307 3.73014,-0.32955 1.24339,-0.0965 2.48676,-0.18101 3.73015,-0.25696 1.24337,-0.0758 2.48676,-0.14294 3.73151,-0.20377 1.24339,-0.0606 2.48677,-0.11495 3.73015,-0.16422 1.24339,-0.0493 2.48676,-0.0937 3.73015,-0.13417 1.24337,-0.0407 2.48676,-0.0774 3.73013,-0.11103 1.24477,-0.0338 2.48814,-0.0646 3.73153,-0.0929 1.24338,-0.0284 2.48676,-0.0545 3.73014,-0.0786 1.24338,-0.0241 2.48677,-0.0463 3.73014,-0.0668 1.24339,-0.0205 2.48814,-0.0397 3.73153,-0.0575 1.24337,-0.0177 2.48676,-0.0341 3.73014,-0.0496 1.24338,-0.0155 2.486762,-0.0299 3.730142,-0.0433"
+       id="path38210"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedanceAbs.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.304429;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.82658, 1.82658;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 20.005488,26.41262 H 102.14128"
+       id="path38212"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedanceAbs.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.26765px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="16.770832"
+       y="9.5170126"
+       id="text1459"><tspan
+         sodipodi:role="line"
+         id="tspan1457"
+         style="stroke-width:0.264583"
+         x="16.770832"
+         y="9.5170126"
+         dy="0 0 0 0 0 0 0 0 0 0.29447526">$\norm{Z}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.26765px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="2.8631597"
+       y="27.644392"
+       id="text1459-2"><tspan
+         sodipodi:role="line"
+         id="tspan1457-1"
+         style="stroke-width:0.264583"
+         x="2.8631597"
+         y="27.644392"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0.4916864">$\rho_0 \, c$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.26765px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="91.576973"
+       y="81.384438"
+       id="text1459-2-3"><tspan
+         sodipodi:role="line"
+         id="tspan1457-1-2"
+         style="stroke-width:0.264583"
+         x="91.576973"
+         y="81.384438"
+         dy="0 0 0 0 0 0 0 0.4916864">$k \, r$</tspan></text>
+  </g>
+</svg>

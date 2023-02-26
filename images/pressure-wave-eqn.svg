@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="130mm"
+   height="130mm"
+   viewBox="0 0 130 130"
+   version="1.1"
+   id="svg3238"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="pressure-wave-eqn.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3240"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3416246"
+     inkscape:cx="239.26216"
+     inkscape:cy="326.84255"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3235">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1765-1"
+       id="linearGradient1767"
+       gradientUnits="userSpaceOnUse"
+       x1="-518.73047"
+       y1="114.88234"
+       x2="-492.27219"
+       y2="114.88234"
+       gradientTransform="translate(579.74909,-6.502981)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1765-1">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.60000002"
+         offset="0"
+         id="stop1761" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.2"
+         offset="1"
+         id="stop1763" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path849-4-3-2"
+       d="M 122.26965,29.00437 H 26.22582 v 31.750002 h 96.04383"
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1666"
+       width="31.750002"
+       height="4.7624998"
+       x="29.004364"
+       y="-50.435234"
+       transform="rotate(90)"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1676"
+       width="19.44692"
+       height="4.7624998"
+       x="-45.672722"
+       y="-47.260628"
+       transform="scale(-1)"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:0.2;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1686"
+       width="31.750002"
+       height="31.750002"
+       x="50.435234"
+       y="29.00437"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 50.43524,29.004369 17.34209,-10.01246 h 31.75 V 50.741911 L 82.18524,60.754371 V 29.004369 l 17.34209,-10.01246"
+       id="path1700"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1702"
+       d="M 122.26965,92.504376 H 26.22582 v 31.750034 h 96.04383"
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1704"
+       width="31.750002"
+       height="4.7624998"
+       x="92.504349"
+       y="-61.018608"
+       transform="rotate(90)"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1706"
+       width="30.030294"
+       height="4.7624998"
+       x="-56.256096"
+       y="-110.7606"
+       transform="scale(-1)"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:url(#linearGradient1767);fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1708"
+       width="26.458294"
+       height="31.750002"
+       x="61.018608"
+       y="92.504349"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path1714"
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 78.3359,82.491913 h 26.50787 m -0.0248,31.750027 -17.34209,10.01247 V 92.504376 l 17.34209,-10.012463 z"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.2, 1.2;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 61.01858,92.504376 78.36067,82.491913"
+       id="path1710"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path2972-3"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 101.86133,50.587636 c 2.4958,0.371917 1.34622,-12.158756 1.34622,-12.158756 0,0 -0.19696,-2.538724 1.72626,-3.291795 m -3.07248,-15.450588 c 2.4958,-0.371889 1.34622,12.158838 1.34622,12.158838 0,0 -0.19696,2.538692 1.72626,3.29175"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png" />
+    <path
+       id="path2972-3-5"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 48.16302,27.19613 c -1.00685,-1.269136 6.33584,-4.66624 6.33584,-4.66624 0,0 1.47611,-0.70828 1.27886,-2.021188 m 9.58408,-3.267689 c -0.59287,-1.508742 -7.19874,3.167907 -7.19874,3.167907 0,0 -1.34986,0.927458 -2.38534,0.09972"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png" />
+    <g
+       id="g1847"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="translate(412.11764,9.1061)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1453-7"
+         d="m -390.91952,35.773277 h -9.58184"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1455-9"
+         d="m -391.0221,35.773277 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1841"
+       transform="translate(412.11764,72.606103)"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1837"
+         d="m -390.96246,35.773277 h -13.42483"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1839"
+         d="m -391.0221,35.773277 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1853"
+       transform="matrix(-1,0,0,1,-303.70661,9.1061)"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1849"
+         d="m -390.91952,35.773277 h -9.58184"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1851"
+         d="m -391.0221,35.773277 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1888"
+       transform="matrix(-1,0,0,1,-298.41495,72.606103)"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1884"
+         d="m -390.91952,35.773277 h -9.58184"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1886"
+         d="m -391.0221,35.773277 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       id="path1797"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 98.91499,16.496846 c 0.36289,-2.4958 -11.86382,-1.34622 -11.86382,-1.34622 0,0 -2.47714,0.19696 -3.21194,-1.72626 m -15.0758,3.07248 c -0.36286,-2.4958 11.8639,-1.34622 11.8639,-1.34622 0,0 2.47711,0.19696 3.2119,-1.72626"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.8;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 50.43524,124.25441 V 60.754369"
+       id="path1789"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.8;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 82.18524,124.25441 V 60.754369"
+       id="path1791"
+       inkscape:export-filename="C:\Backup\Academic\My Notes\Apunte Acústica\PNG\PwaveEqn.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="43.379112"
+       y="18.513247"
+       id="text1624"><tspan
+         sodipodi:role="line"
+         id="tspan1622"
+         style="stroke-width:0.264583"
+         x="43.379112"
+         y="18.513247"
+         dy="0 0 0 0 0 0 0 0 0 0.053351495">$\Delta y$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.565018"
+       y="10.674192"
+       id="text1624-2"><tspan
+         sodipodi:role="line"
+         id="tspan1622-7"
+         style="stroke-width:0.264583"
+         x="79.565018"
+         y="10.674192"
+         dy="0 0 0 0 0 0 0 0 0 0.053351495">$\Delta x$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="8.1745787"
+       y="40.264839"
+       id="text1624-7"><tspan
+         sodipodi:role="line"
+         id="tspan1622-5"
+         style="stroke-width:0.264583"
+         x="8.1745787"
+         y="40.264839"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.84219611">$\vec{F}_0, p_0$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.313278"
+       y="40.264839"
+       id="text1624-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan1622-5-0"
+         style="stroke-width:0.264583"
+         x="84.313278"
+         y="40.264839"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.84219611">$\vec{F}_0, p_0$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="44.067013"
+       y="66.296707"
+       id="text1624-9-47"><tspan
+         sodipodi:role="line"
+         id="tspan1622-6-87"
+         style="stroke-width:0.264583"
+         x="44.067013"
+         y="66.296707"
+         dy="0 0 0.053351495">$x$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.407646"
+       y="45.786751"
+       id="text1624-9-4"><tspan
+         sodipodi:role="line"
+         id="tspan1622-6-8"
+         style="stroke-width:0.264583"
+         x="62.407646"
+         y="45.786751"
+         dy="0 0 0 0 0.053351495">$V_0$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="106.97736"
+       y="35.917217"
+       id="text1624-6"><tspan
+         sodipodi:role="line"
+         id="tspan1622-9"
+         style="stroke-width:0.264583"
+         x="106.97736"
+         y="35.917217"
+         dy="0 0 0 0 0 0 0 0 0 0.053351495">$\Delta z$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="72.087067"
+       y="109.48595"
+       id="text1624-9-4-1"><tspan
+         sodipodi:role="line"
+         id="tspan1622-6-8-1"
+         style="stroke-width:0.264583"
+         x="72.087067"
+         y="109.48595"
+         dy="0 0 0 0 0.053351495">$V_1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.428223"
+       y="66.296707"
+       id="text6769"><tspan
+         sodipodi:role="line"
+         id="tspan6767"
+         style="stroke-width:0.264583"
+         x="84.428223"
+         y="66.296707"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0.25056264">$x+\Delta x$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="8.1745787"
+       y="102.18714"
+       id="text9198"><tspan
+         sodipodi:role="line"
+         id="tspan9196"
+         style="stroke-width:0.264583"
+         x="8.1745787"
+         y="102.18714"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.84219611">$\vec{F}_1, p_1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.8631px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="89.604942"
+       y="102.18714"
+       id="text10158"><tspan
+         sodipodi:role="line"
+         id="tspan10156"
+         style="stroke-width:0.264583"
+         x="89.604942"
+         y="102.18714"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.84219611">$\vec{F}_0, p_0$</tspan></text>
+  </g>
+</svg>

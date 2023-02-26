@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90mm"
+   height="90mm"
+   viewBox="0 0 90 90"
+   version="1.1"
+   id="svg3978"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="campo-difuso-int.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3980"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.8973437"
+     inkscape:cx="167.60274"
+     inkscape:cy="167.33921"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3975" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:0.4;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+       d="m 36.270034,45.068495 -21.50354,-12.44364 c 11.81071,-6.83459 30.95967,-6.83459 42.77039,1e-5 0.96496,0.5584 1.85108,1.14515 2.65837,1.75561"
+       id="path24030"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#c8c8c8;fill-opacity:0.7;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+       d="m 36.151664,71.473055 c 13.38075,-3.88239 24.228,-18.88211 24.22799,-33.50275 2e-5,-14.62067 -10.84724,-23.32573 -24.22798,-19.44335 z"
+       id="path6126-7-0"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#000000;fill-opacity:0.3;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+       d="m 60.195254,34.380475 c 9.073497,6.86134 8.187377,16.71846 -2.6584,22.99467 l -21.26682,-12.30665"
+       id="path5928-3-5"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+       d="m 36.151674,44.999995 11.62452,6.70981 c 5.92835,-3.4219 6.4127,-8.79618 1.4531,-12.53709 z"
+       id="path5928-3-5-9"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g42003"
+       transform="translate(-589.90607,-444.01145)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-0-93-0-5-1"
+         d="m 632.75781,489.00119 h 40.84755"
+         style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path872-0-9-0-1-8"
+         d="m 632.64317,489.00119 v 1.31852 c 0,0 -0.67125,-1.0788 -5.13024,-1.31853 4.45899,-0.23972 5.13024,-1.31852 5.13024,-1.31852 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       id="path15444"
+       style="fill:none;fill-opacity:0.1;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.8, 1.8;stroke-dashoffset:0"
+       d="m 57.536814,58.666085 a 32.029451,17.517889 62.778474 0 1 -21.38515,12.56092 32.029451,17.517889 62.778474 0 1 -21.38516,-39.91362 32.029451,17.517889 62.778474 0 1 21.38516,-12.56094 32.029451,17.517889 62.778474 0 1 21.38515,39.91364 z"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.8, 1.8;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 51.311644,73.182805 c 0,0 16.933337,-6.21771 15.279687,-28.50885 -1.87519,-25.2776 -28.045837,-34.66042 -43.127087,-29.03802"
+       id="path18711"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 36.151654,44.999995 23.99384,-10.65704"
+       id="path7433"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="font-variation-settings:normal;fill:#c8c8c8;fill-opacity:0.4;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="m 14.766524,6.151815 42.77032,24.75028 -3e-5,52.94609 -42.77035,-24.75029 z"
+       id="path8115"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g37068-5"
+       transform="rotate(-9.0037993,-2767.6167,3385.3812)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-0-93-0-5"
+         d="m 497.64057,532.11288 26.73905,-7.16471"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path872-0-9-0-1"
+         d="m 497.64057,532.11288 0.34126,1.27359 c 0,0 -0.9276,-0.86831 -5.2967,0.0542 4.24501,-1.38562 4.61418,-2.6014 4.61418,-2.6014 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:0.5;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 28.880404,40.787205 c 0,-6.45124 2.94503,-10.16755 7.27127,-10.22782 v 14.4406 z"
+       id="path15444-2"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.959839"
+       id="path1353-4-5-5-1-7-7-4-76"
+       cx="36.151726"
+       cy="44.999996"
+       inkscape:export-filename="C:\Users\Admin\Desktop\diffuseIntegration.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       rx="1.3141459"
+       ry="1.3151644" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.22692px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="29.550303"
+       y="39.246849"
+       id="text1414"><tspan
+         sodipodi:role="line"
+         id="tspan1412"
+         style="stroke-width:0.264583"
+         x="29.550303"
+         y="39.246849">$v$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.22692px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="45.447529"
+       y="43.973309"
+       id="text1750"><tspan
+         sodipodi:role="line"
+         id="tspan1748"
+         style="stroke-width:0.264583"
+         x="45.447529"
+         y="43.973309">$u$</tspan></text>
+  </g>
+</svg>

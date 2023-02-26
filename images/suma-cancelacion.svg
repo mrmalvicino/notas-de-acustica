@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90mm"
+   height="90mm"
+   viewBox="0 0 90 90"
+   version="1.1"
+   id="svg6483"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="suma-cancelacion.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6485"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.94867184"
+     inkscape:cx="211.34811"
+     inkscape:cy="137.56074"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs6480">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1879"
+       id="linearGradient1881"
+       x1="-46.893414"
+       y1="846.27942"
+       x2="33.010754"
+       y2="846.27942"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.52916665,-3.7041666)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1879">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1875" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1877" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1894-2-5">
+      <circle
+         style="display:none;opacity:1;fill:url(#linearGradient1898);fill-opacity:1;stroke:none;stroke-width:0.499996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle1896-2-2"
+         cx="-7.4704981"
+         cy="842.57526"
+         r="32.543751"
+         d="M 25.073253,842.57526 A 32.543751,32.543751 0 0 1 -7.4704981,875.11901 32.543751,32.543751 0 0 1 -40.014249,842.57526 32.543751,32.543751 0 0 1 -7.4704981,810.03151 32.543751,32.543751 0 0 1 25.073253,842.57526 Z" />
+      <path
+         id="lpe_path-effect1900"
+         style="opacity:1;fill:url(#linearGradient1898);fill-opacity:1;stroke:none;stroke-width:0.499996;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         class="powerclip"
+         d="m -52.422582,797.62317 h 89.904168 v 89.90417 h -89.904168 z m 77.495835,44.95209 A 32.543751,32.543751 0 0 0 -7.4704981,810.03151 32.543751,32.543751 0 0 0 -40.014249,842.57526 32.543751,32.543751 0 0 0 -7.4704981,875.11901 32.543751,32.543751 0 0 0 25.073253,842.57526 Z" />
+    </clipPath>
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect1900"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:0.999;fill:url(#linearGradient1881);fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1641-6"
+       clip-path="url(#clipPath1894-2-5)"
+       transform="translate(52.470498,-797.57526)"
+       sodipodi:type="arc"
+       sodipodi:ry="39.952084"
+       sodipodi:rx="39.952084"
+       sodipodi:cy="842.57526"
+       sodipodi:cx="-7.4704981"
+       inkscape:path-effect="#path-effect1900"
+       inkscape:export-filename="C:\Users\admin\Desktop\Apunte Acústica\PNG\phaseSum.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.48097px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="38.569443"
+       y="18.930782"
+       id="text1820"><tspan
+         sodipodi:role="line"
+         id="tspan1818"
+         style="stroke-width:0.264583"
+         x="38.569443"
+         y="18.930782"
+         dy="0 0 0 0 0 0 0 0 0 0.72460586">$\ang{90}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.48097px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="38.569443"
+       y="29.514116"
+       id="text2384"><tspan
+         sodipodi:role="line"
+         id="tspan2382"
+         style="stroke-width:0.264583"
+         x="38.569443"
+         y="29.514116"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.39442232 0 0 0">$+3\,\si{\deci\bel}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.48097px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="57.925938"
+       y="38.982136"
+       id="text1820-3"><tspan
+         sodipodi:role="line"
+         id="tspan1818-4"
+         style="stroke-width:0.264583"
+         x="57.925938"
+         y="38.982136"
+         dy="0 0 0 0 0 0 0 0 0.72460586">$\ang{0}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.48097px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="57.925938"
+       y="49.565468"
+       id="text2384-4"><tspan
+         sodipodi:role="line"
+         id="tspan2382-7"
+         style="stroke-width:0.264583"
+         x="57.925938"
+         y="49.565468"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.39442232 0 0 0">$+6\,\si{\deci\bel}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.48097px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.592601"
+       y="38.982136"
+       id="text5917"><tspan
+         sodipodi:role="line"
+         id="tspan5915"
+         style="stroke-width:0.264583"
+         x="15.592601"
+         y="38.982136"
+         dy="0 0 0 0 0 0 0 0 0 0 0.72460586">$\ang{180}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.48097px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.592601"
+       y="49.565468"
+       id="text5921"><tspan
+         sodipodi:role="line"
+         id="tspan5919"
+         style="stroke-width:0.264583"
+         x="15.592601"
+         y="49.565468"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.39442232 0 0 0">$-\infty\,\si{\deci\bel}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.48097px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="38.569443"
+       y="61.264122"
+       id="text7091"><tspan
+         sodipodi:role="line"
+         id="tspan7089"
+         style="stroke-width:0.264583"
+         x="38.569443"
+         y="61.264122"
+         dy="0 0 0 0 0 0 0 0 0 0 0.72460586">$\ang{270}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.48097px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="38.569443"
+       y="71.84745"
+       id="text7095"><tspan
+         sodipodi:role="line"
+         id="tspan7093"
+         style="stroke-width:0.264583"
+         x="38.569443"
+         y="71.84745"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.39442232 0 0 0">$+3\,\si{\deci\bel}$</tspan></text>
+  </g>
+</svg>

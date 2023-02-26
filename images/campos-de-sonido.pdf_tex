@@ -1,0 +1,70 @@
+%% Creator: Inkscape 1.1 (c68e22c387, 2021-05-23), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'campos-de-sonido.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{510.23622047bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.66666667)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{campos-de-sonido.pdf}}%
+    \put(0.32655621,0.19129313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34525206\unitlength}\centering Campo\\ directo\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{campos-de-sonido.pdf}}%
+    \put(0.55178238,0.19129313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34525206\unitlength}\centering Campo\\ difuso\end{minipage}}}%
+    \put(0.02892554,0.11797874){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34525206\unitlength}\centering Fuente\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{campos-de-sonido.pdf}}%
+    \put(0.32655621,0.61875369){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34525206\unitlength}\centering Campo\\ lejano\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{campos-de-sonido.pdf}}%
+    \put(0.10030504,0.61875374){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34525206\unitlength}\centering Campo\\ cercano\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{campos-de-sonido.pdf}}%
+    \put(0.02537511,0.61075513){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$SPL$\end{tabular}}}}%
+    \put(0.94749315,0.02852355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
+    \put(0.59471516,0.02852355){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$d_c$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

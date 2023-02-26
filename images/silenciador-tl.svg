@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120mm"
+   height="60mm"
+   viewBox="0 0 120 60"
+   version="1.1"
+   id="svg6040"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="silenciador-tl.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6042"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.67081229"
+     inkscape:cx="217.64658"
+     inkscape:cy="88.698435"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs6037">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient32611"
+       id="linearGradient32447"
+       x1="603.14899"
+       y1="-82.739944"
+       x2="621.20306"
+       y2="-82.739944"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-506.5045,112.7399)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient32611">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.15000001"
+         offset="0"
+         id="stop32607" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0"
+         offset="1"
+         id="stop32609" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12359-0-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:'Math Symbols';-inkscape-font-specification:'Math Symbols';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.19942,-58.21325)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion12355-0-4"><rect
+           id="rect12353-9-76"
+           width="249.34694"
+           height="99.55191"
+           x="150.68999"
+           y="314.73935" /></flowRegion><flowPara
+         id="flowPara12357-6-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif'">Silenciador</flowPara></flowRoot>
+    <rect
+       style="fill:#000000;fill-opacity:0.15;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.3, 0.899999"
+       id="rect28425"
+       width="62.045017"
+       height="47.820072"
+       x="28.977524"
+       y="6.0899367"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:0.15;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.3, 0.899999"
+       id="rect28427"
+       width="23.607367"
+       height="23.910034"
+       x="5.3701015"
+       y="18.044924"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#000000;fill-opacity:0.15;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.3, 0.9"
+       id="rect28429"
+       width="5.6220288"
+       height="23.910034"
+       x="91.022507"
+       y="18.044924"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path29507-5-9"
+       style="fill:url(#linearGradient32447);fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 114.69855,53.90998 c 0,0 -4.02241,-11.95501 -18.05406,-11.95501 V 18.04493 c 14.03165,0 18.05406,-11.955 18.05406,-11.955 z"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path28433"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.3701,18.04503 H 28.97747 V 6.09002 H 91.0225 v 11.95501 0 h 5.55334 c 14.03165,0 18.05406,-11.95501 18.05406,-11.95501"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       id="path28433-1"
+       style="fill:none;fill-opacity:0.15;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.3701,41.95496 H 28.97747 V 53.90998 H 91.0225 V 41.95496 h 5.55334 c 14.03165,0 18.05406,11.95502 18.05406,11.95502"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.959839"
+       id="path1353-4-5-5-1-7-7-6"
+       cx="22.4655"
+       cy="29.999941"
+       r="1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.959839"
+       id="path1353-4-5-5-1-7-7-9"
+       cx="11.882125"
+       cy="29.999941"
+       r="1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.959839"
+       id="path1353-4-5-5-1-7-7-56"
+       cx="102.82622"
+       cy="30.000063"
+       r="1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\TL.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.83698px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="99.165039"
+       y="25.699083"
+       id="text1608"><tspan
+         sodipodi:role="line"
+         id="tspan1606"
+         style="stroke-width:0.264583"
+         x="99.165039"
+         y="25.699083">$p_T$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.83698px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="19.790049"
+       y="25.699083"
+       id="text2412"><tspan
+         sodipodi:role="line"
+         id="tspan2410"
+         style="stroke-width:0.264583"
+         x="19.790049"
+         y="25.699083"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0.83669609">$\sub{p}{in2}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.83698px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="6.8401809"
+       y="25.699083"
+       id="text2584"><tspan
+         sodipodi:role="line"
+         id="tspan2582"
+         style="stroke-width:0.264583"
+         x="6.8401809"
+         y="25.699083"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0.83669609">$\sub{p}{in1}$</tspan></text>
+  </g>
+</svg>

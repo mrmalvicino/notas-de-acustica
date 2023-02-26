@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="150mm"
+   height="130mm"
+   viewBox="0 0 150 130"
+   version="1.1"
+   id="svg5712"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="vib-transmisibilidad-diag.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5714"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.67081229"
+     inkscape:cx="278.02114"
+     inkscape:cy="203.48464"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs5709">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1879"
+       id="linearGradient4220-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,0.14789863,-16.344543,0,1785.997,112.42658)"
+       x1="-135.54034"
+       y1="104.68308"
+       x2="-30.737953"
+       y2="104.68308" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1879">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1875" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1877" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1879"
+       id="linearGradient1569"
+       gradientUnits="userSpaceOnUse"
+       x1="326.81903"
+       y1="72.657021"
+       x2="326.81903"
+       y2="64.029167"
+       gradientTransform="translate(-229.90491,-2.352182)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path2536-4-8-3"
+       d="M 33.299571,92.402531 H 116.70037"
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1000-6-8-3-1"
+       d="M 116.70037,92.402531 V 107.85829 H 33.299571 V 92.402531 Z"
+       style="opacity:0.5;fill:url(#linearGradient4220-1);fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <path
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png"
+       inkscape:connector-curvature="0"
+       id="path3890-5-9-8-1"
+       d="m 53.833291,37.623838 v 5.29167 c -1.32555,0.21105 -2.6021,0.55073 -3.64536,0.99214 -1.04323,0.4415 -1.84875,0.98402 -2.30158,1.57109 -0.45282,0.58708 -0.54957,1.21752 -0.27828,1.82223 0.27123,0.60476 0.91182,1.1823 1.82704,1.6715 0.91528,0.48921 2.10405,0.88865 3.39312,1.1633 1.28905,0.27478 2.67512,0.42353 3.95741,0.44753 1.28234,0.0231 2.45647,-0.0762 3.35351,-0.26419 0.897,-0.18796 1.51261,-0.4626 1.75956,-0.76182 0.24679,-0.29927 0.12212,-0.62176 -0.35386,-0.89868 -0.47611,-0.27665 -1.30422,-0.50666 -2.36276,-0.63418 -1.05856,-0.1275 -2.34566,-0.15102 -3.67413,-0.0467 -1.32853,0.10483 -2.69468,0.33944 -3.90096,0.69098 -1.20623,0.35146 -2.2481,0.82049 -2.97602,1.36046 -0.72794,0.53996 -1.13792,1.15014 -1.17262,1.76431 -0.0346,0.61419 0.30833,1.23096 0.977,1.7834 0.66879,0.55244 1.66329,1.03902 2.83814,1.412 1.17484,0.37315 2.52744,0.63098 3.86151,0.7597 1.33404,0.12885 2.6454,0.12747 3.74484,0.0184 1.0994,-0.10805 1.9824,-0.32326 2.52267,-0.59086 0.54024,-0.26785 0.73415,-0.58758 0.55574,-0.89062 -0.17844,-0.30297 -0.73078,-0.58792 -1.57518,-0.79135 -0.84442,-0.20367 -1.98001,-0.32436 -3.24119,-0.32236 -1.26111,0.002 -2.6447,0.12654 -3.95025,0.37778 -1.30552,0.25122 -2.52863,0.62988 -3.4932,1.10228 -0.96452,0.47242 -1.66611,1.03823 -2.00489,1.63751 -0.33879,0.59926 -0.31187,1.23082 0.0756,1.82538 0.38701,0.59459 1.13473,1.15069 2.13323,1.6104 0.99853,0.45952 2.24619,0.82155 3.56144,1.056 1.31524,0.23417 2.6945,0.34037 3.93824,0.32607 1.24371,-0.0139 2.3474,-0.15056 3.15241,-0.3644 0.80506,-0.21428 1.30733,-0.50607 1.436,-0.8111 0.12852,-0.30526 -0.11879,-0.62181 -0.70435,-0.88233 -0.58569,-0.26047 -1.50973,-0.46321 -2.63682,-0.55711 -1.12712,-0.0937 -2.45501,-0.0776 -3.79082,0.0688 -1.3358,0.14593 -2.67556,0.42211 -3.82572,0.81017 -1.15015,0.38795 -2.10622,0.88768 -2.73119,1.44848 -0.62501,0.56079 -0.91516,1.18187 -0.83046,1.79526 0.0847,0.61341 0.54614,1.21775 1.31552,1.74802 0.76938,0.53028 1.84616,0.98486 3.0731,1.32079 1.22695,0.33575 2.60121,0.55183 3.92346,0.63963 1.32228,0.0877 2.58834,0.0472 3.61559,-0.0942 1.02726,-0.14085 1.8113,-0.38146 2.24029,-0.66439 0.42899,-0.28264 0.49963,-0.6066 0.20378,-0.90231 -0.29587,-0.29557 -0.95959,-0.56182 -1.89309,-0.73787 -0.93348,-0.17596 -2.13548,-0.26046 -3.43098,-0.21936 -1.29547,0.0416 -2.681,0.20828 -3.95599,0.4996 -1.27503,0.29142 -2.43505,0.70646 -3.31317,1.20727 -0.87816,0.50081 -1.47019,1.08662 -1.69224,1.69453 -0.22195,0.60796 -0.0714,1.23672 0.42827,1.81764 0.49963,0.58086 1.3486,1.11235 2.42235,1.54009 1.0738,0.42766 2.3704,0.75034 3.70132,0.94394 1.33091,0.19356 2.69237,0.25766 3.88759,0.20506 1.1952,-0.0526 2.21959,-0.22076 2.92618,-0.45813 0.70661,-0.23739 1.09199,-0.54307 1.10099,-0.85024 0.0103,-0.3071 -0.35877,-0.61446 -1.04927,-0.8553 -0.69058,-0.24106 -1.70319,-0.41378 -2.88981,-0.47177 -1.18667,-0.0582 -2.54476,-1.2e-4 -3.87717,0.18703 -1.33246,0.18705 -2.6351,0.50414 -3.71998,0.92659 -1.08491,0.42256 -1.94756,0.95026 -2.46461,1.52865 -0.517,0.57844 -0.68502,1.20656 -0.4816,1.81553 0.20352,0.60897 0.77972,1.19729 1.64354,1.70233 0.86385,0.50507 2.01426,0.92533 3.28352,1.222709 1.26923,0.29741 2.65418,0.47077 3.9541,0.51817 1.29995,0.0476 2.51056,-0.0324 3.45743,-0.203671 0.94689,-0.171331 1.62574,-0.43457 1.94004,-0.728898 0.31443,-0.29419 0.26101,-0.61833 -0.15001,-0.90315 -0.4111,-0.28494 -1.18078,-0.52874 -2.19588,-0.67472 -1.01509,-0.14591 -2.27396,-0.19261 -3.59338,-0.11131 -1.31947,0.0813 -2.69589,0.29141 -3.93017,0.62124 -1.23427,0.32974 -2.32191,0.77985 -3.10666,1.306348 -0.78471,0.526471 -1.26249,1.128779 -1.36599,1.741721 -0.10368,0.612978 0.16947,1.235199 0.77784,1.799 0.60825,0.563848 1.55167,1.067649 2.69213,1.46123 1.14048,0.39347 2.47561,0.67551 3.81163,0.828008 1.33597,0.1524 2.66875,0.174601 3.80585,0.0863 1.13714,-0.0882 2.07407,-0.286801 2.67664,-0.5446 0.60253,-0.257691 0.86704,-0.573302 0.75713,-0.87894 -0.11008,-0.30574 -0.59593,-0.5997 -1.38584,-0.817671 -0.78988,-0.21798 -1.88295,-0.35836 -3.1197,-0.379159 -1.23672,-0.0231 -2.61414,0.0794 -3.93255,0.307578 -1.31846,0.22815 -2.57362,0.584441 -3.58453,1.039262 -1.01092,0.45488 -1.77326,1.00765 -2.17823,1.600319 -0.40501,0.592609 -0.44945,1.224021 -0.12904,1.824861 0.3205,0.600879 1.00704,1.169778 1.95847,1.646838 0.95137,0.477022 2.16622,0.860801 3.4676,1.118542 0.23655,0.0467 0.47607,0.0896 0.71703,0.127928 v 5.256491"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 96.166638,37.623838 v 27.38934"
+       id="path1062"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 91.503358,65.013178 h 9.326572"
+       id="path1064"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <path
+       style="opacity:0.396774;fill:url(#linearGradient1569);fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 89.811211,60.978288 v 9.32656 h 12.710849 v -9.32656"
+       id="path1064-1"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 96.166638,70.304848 V 92.402531"
+       id="path1062-4"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <rect
+       style="fill:#000000;fill-opacity:0.3;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect1170"
+       width="83.400787"
+       height="5.291667"
+       x="33.299606"
+       y="32.332184"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <g
+       id="g1295"
+       transform="matrix(1,0,0,-1,-229.90493,74.740338)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path849-2"
+         d="M 351.89695,59.615995 V 37.330183"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path872-4"
+         d="m 351.89695,59.615995 h 1.31852 c 0,0 -1.0788,0.67126 -1.31852,5.13025 -0.23972,-4.45899 -1.31852,-5.13025 -1.31852,-5.13025 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1299"
+       transform="matrix(1,0,0,-1,-229.90492,202.61298)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1283"
+         d="M 351.89695,105.72602 V 94.754703"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1285"
+         d="m 351.89695,105.72602 h 1.31852 c 0,0 -1.0788,0.67126 -1.31852,5.13025 -0.23972,-4.45899 -1.31852,-5.13025 -1.31852,-5.13025 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.8, 1.8;stroke-dashoffset:0;paint-order:markers fill stroke"
+       id="rect1392"
+       width="133.43613"
+       height="32.086811"
+       x="8.2819366"
+       y="89.944016"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 89.811201,60.978288 v 9.32656 h 12.710859 v -9.32656"
+       id="path1575"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.8, 1.8;stroke-dashoffset:0;paint-order:markers fill stroke"
+       id="rect1392-6"
+       width="133.43613"
+       height="32.086811"
+       x="8.2819366"
+       y="7.9691758"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1027-6-5-1-5-15-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:'Math Symbols';-inkscape-font-specification:'Math Symbols';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-26.719179,-64.062142)"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion1023-6-9-7-1-2-2"><rect
+           id="rect1021-2-9-4-3-2-3"
+           width="230.23183"
+           height="138.95558"
+           x="150.68999"
+           y="314.73935" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif'"
+         id="flowPara1460">A1</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1027-6-5-1-5-15-4-1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:'Math Symbols';-inkscape-font-specification:'Math Symbols';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-26.719179,17.912678)"
+       inkscape:export-filename="C:\Users\mrmal\Desktop\Apunte Acústica\PNG\XY.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion1023-6-9-7-1-2-2-5"><rect
+           id="rect1021-2-9-4-3-2-3-4"
+           width="230.23183"
+           height="138.95558"
+           x="150.68999"
+           y="314.73935" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif'"
+         id="flowPara1460-6">A2</flowPara></flowRoot>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.73509px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="124.21554"
+       y="34.922543"
+       id="text1623"><tspan
+         sodipodi:role="line"
+         id="tspan1621"
+         style="stroke-width:0.264583"
+         x="124.21554"
+         y="34.922543"
+         dy="0 0 0 0 0 0 0 0 0 0 0.64121288">$\fx[x]{t}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.73509px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="124.21554"
+       y="103.7142"
+       id="text2441"><tspan
+         sodipodi:role="line"
+         id="tspan2439"
+         style="stroke-width:0.264583"
+         x="124.21554"
+         y="103.7142"
+         dy="0 0 0 0 0 0 0 0 0 0 0.64121288">$\fx[y]{t}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.73509px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="68.846428"
+       y="36.48418"
+       id="text2441-9"><tspan
+         sodipodi:role="line"
+         id="tspan2439-2"
+         style="stroke-width:0.264583"
+         x="68.846428"
+         y="36.48418"
+         dy="0 0 0.64121288">$m$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.73509px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="34.828827"
+       y="66.065857"
+       id="text2441-9-4"><tspan
+         sodipodi:role="line"
+         id="tspan2439-2-3"
+         style="stroke-width:0.264583"
+         x="34.828827"
+         y="66.065857"
+         dy="0 0 0.64121288">$k$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.73509px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="107.72888"
+       y="66.065857"
+       id="text3705"><tspan
+         sodipodi:role="line"
+         id="tspan3703"
+         style="stroke-width:0.264583"
+         x="107.72888"
+         y="66.065857"
+         dy="0 0 0 0 0.64121288">$R_a$</tspan></text>
+  </g>
+</svg>

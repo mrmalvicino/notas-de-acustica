@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110mm"
+   height="80mm"
+   viewBox="0 0 110 80"
+   version="1.1"
+   id="svg4124"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="imped.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4126"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3416246"
+     inkscape:cx="147.58227"
+     inkscape:cy="194.91295"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4121" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path849-4-2"
+       d="m 20.000928,9.646924 v 66.07113"
+       style="fill:none;stroke:#000000;stroke-width:0.300001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedance.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path872-3-9"
+       d="m 20.000928,9.394464 h -1.31852 c 0,0 1.0788,-0.67126 1.31852,-5.130249 0.23972,4.458989 1.31852,5.130249 1.31852,5.130249 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedance.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path849-4-3-6"
+       d="M 100.32729,65.134724 H 9.417598"
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedance.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path872-3-4-1"
+       d="m 100.32729,65.134724 v -1.31852 c 0,0 0.67126,1.0788 5.13025,1.31852 -4.45899,0.23972 -5.13025,1.31852 -5.13025,1.31852 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedance.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.8, 1.8;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 20.000978,16.57869 H 101.005"
+       id="path35708"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedance.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 22.972418,65.064081 c 0.75737,-1.0126 1.51468,-2.11763 2.27202,-3.272177 2.48675,-3.790976 4.97612,-7.994649 7.46287,-11.685862 2.48675,-3.691101 4.9735,-6.917457 7.46024,-9.60816 2.48676,-2.690703 4.97351,-4.871051 7.46287,-6.685198 2.48675,-1.814256 4.9735,-3.265418 7.46022,-4.483873 2.48676,-1.218457 4.97351,-2.202321 7.46026,-3.03804 2.4894,-0.83572 4.97613,-1.521405 7.46288,-2.11066 2.48676,-0.589252 4.97351,-1.080963 7.46024,-1.5082 2.48675,-0.427348 4.97611,-0.789333 7.46286,-1.107153 2.48675,-0.31793 4.9735,-0.591029 7.46024,-0.832945 2.48675,-0.241917 4.9735,-0.452316 7.4629,-0.640188"
+       id="path58653"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedance.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 20.000928,65.134724 c 1.74784,-4.197834 3.49567,-8.098271 5.24351,-11.162912 2.4868,-4.36036 4.97612,-7.084581 7.46287,-8.577245 2.48675,-1.492664 4.9735,-1.843886 7.46024,-1.742904 2.48676,0.10087 4.97351,0.656613 7.46287,1.319995 2.48675,0.663272 4.9735,1.446502 7.46022,2.220631 2.48676,0.77413 4.97351,1.545042 7.46026,2.273787 2.4894,0.728632 4.97613,1.417204 7.46288,2.058725 2.48676,0.641409 4.97351,1.236544 7.46024,1.788845 2.48675,0.5523 4.97611,1.061765 7.46286,1.534833 2.48675,0.472955 4.9735,0.909292 7.46024,1.315223 2.48675,0.40604 4.9735,0.781342 7.4629,1.131566"
+       id="path58337"
+       inkscape:export-filename="C:\Users\Admin\Desktop\Apunte Acústica\PNG\impedance.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.36446px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="5.400939"
+       y="18.288116"
+       id="text1260"><tspan
+         sodipodi:role="line"
+         id="tspan1258"
+         style="stroke-width:0.264583"
+         x="5.400939"
+         y="18.288116"
+         dy="0 0 0 0 0 0 0 0 0 0 0 0 0.16265644">$\rho_0 \, c$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.36446px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.422783"
+       y="27.639605"
+       id="text1260-4"><tspan
+         sodipodi:role="line"
+         id="tspan1258-7"
+         style="stroke-width:0.264583"
+         x="79.422783"
+         y="27.639605"
+         dy="0 0 0 0 0 0 0 0 0.16265644">$\re (Z)$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.36446px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="51.024376"
+       y="55.18309"
+       id="text4401"><tspan
+         sodipodi:role="line"
+         id="tspan4399"
+         style="stroke-width:0.264583"
+         x="51.024376"
+         y="55.18309"
+         dy="0 0 0 0 0 0 0 0 0.16265644">$\im (Z)$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.36446px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="92.593727"
+       y="72.012108"
+       id="text4401-1"><tspan
+         sodipodi:role="line"
+         id="tspan4399-2"
+         style="stroke-width:0.264583"
+         x="92.593727"
+         y="72.012108"
+         dy="0 0 0 0 0 0 0 0.3598676">$k \, r$</tspan></text>
+  </g>
+</svg>

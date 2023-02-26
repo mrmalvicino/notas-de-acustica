@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110mm"
+   height="80mm"
+   viewBox="0 0 110 80"
+   version="1.1"
+   id="svg3646"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="energia-sala.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3648"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3416246"
+     inkscape:cx="293.67381"
+     inkscape:cy="123.35791"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3643" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1027-6-5-1-5-15-7-4-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:'Math Symbols';-inkscape-font-specification:'Math Symbols';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.553065,-18.869325)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion1023-6-9-7-1-2-4-3-4"><rect
+           id="rect1021-2-9-4-3-2-1-8-8"
+           width="205.71194"
+           height="90.836182"
+           x="150.68999"
+           y="314.73935" /></flowRegion><flowPara
+         id="flowPara1025-1-57-2-9-2-3-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif'">Crec.</flowPara></flowRoot>
+    <path
+       inkscape:connector-curvature="0"
+       id="path849-4-77-9"
+       d="M 17.572165,9.6469248 V 75.718055"
+       style="fill:none;stroke:#000000;stroke-width:0.300001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path872-3-2-4"
+       d="m 17.572165,9.3944648 h -1.3185 c 0,0 1.0788,-0.67126 1.3185,-5.13025 0.2398,4.45899 1.3186,5.13025 1.3186,5.13025 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path849-4-3-4-7"
+       d="M 97.898565,65.134725 H 6.988865"
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path872-3-4-4-1"
+       d="m 97.898565,65.134725 v -1.31852 c 0,0 0.6713,1.0788 5.130305,1.31852 -4.459005,0.23972 -5.130305,1.31852 -5.130305,1.31852 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="m 17.572165,65.134725 c 3.87064,-14.44542 10.72504,-36.77639 21.23286,-36.77639 h 17.19792 c 0,11.72323 18.86111,36.77639 36.77639,36.77639"
+       id="path61592"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.8, 1.8;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="M 56.002955,65.134725 V 28.358335"
+       id="path63344"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.8, 1.8;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="M 38.805025,65.134725 V 28.358335"
+       id="path63426"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot67800"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:'Math Symbols';-inkscape-font-specification:'Math Symbols';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,21.780295,-18.869325)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion67796"><rect
+           id="rect67794"
+           width="205.71194"
+           height="90.836182"
+           x="150.68999"
+           y="314.73935" /></flowRegion><flowPara
+         id="flowPara67798"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif'">Dec.</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot67800-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:0.75;font-family:'Math Symbols';-inkscape-font-specification:'Math Symbols';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-19.430545,-72.563775)"
+       inkscape:export-filename="C:\Users\Admin\Desktop\roomEnergy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><flowRegion
+         id="flowRegion67796-3"><rect
+           id="rect67794-5"
+           width="205.71194"
+           height="90.836182"
+           x="150.68999"
+           y="314.73935" /></flowRegion><flowPara
+         id="flowPara67798-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle">Rég.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-align:center;text-anchor:middle"
+         id="flowPara75783">perm.</flowPara></flowRoot>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.86342px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="6.9867134"
+       y="9.5617418"
+       id="text2192"><tspan
+         sodipodi:role="line"
+         id="tspan2190"
+         style="stroke-width:0.264583"
+         x="6.9867134"
+         y="9.5617418">$p$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.86342px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="93.265579"
+       y="60.91658"
+       id="text2192-4"><tspan
+         sodipodi:role="line"
+         id="tspan2190-4"
+         style="stroke-width:0.264583"
+         x="93.265579"
+         y="60.91658">$t$</tspan></text>
+  </g>
+</svg>
